@@ -1,0 +1,6 @@
+textarea{
+  resize: none !important;
+}
+.noPaddingInput{
+  align-items: flex-end;
+}

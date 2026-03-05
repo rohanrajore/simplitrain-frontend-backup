@@ -1,0 +1,31 @@
+.profile-socialMedia-select{
+  height: 65px;
+  width: 200px;
+  margin-left: 5px;
+}
+.profileMedia-moreIcon{
+  color: purple;
+  font-size: 15px;
+  margin-left: 15px;
+}
+.profileMedia-moreIcon:hover{
+  cursor: pointer;
+}
+.profileMedia-removeIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 7px;
+  color: purple;
+  font-size: 19px;
+}
+.profileMedia-removeIcon:hover{
+  cursor: pointer;
+}
+.profileMedia-removeIcon path{
+  pointer-events: none;
+}
+.marginBottom25{
+  margin-bottom: 25px;
+}

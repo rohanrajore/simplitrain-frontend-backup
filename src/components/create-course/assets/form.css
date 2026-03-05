@@ -1,0 +1,178 @@
+.input-container, .box-container, .btn-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+	position: relative;
+	margin-bottom: 15px;
+	margin-right: 5px;
+}
+.input-container:not(.btn-container), .box-container:not(.btn-container), .btn-container:not(.btn-container) {
+  padding-top: 0px;
+}
+
+.box-container.vertical-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.group-label, .input-label, .radio-label, .checkbox-label {
+  color: #222;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.group-label.error-label, .input-label.error-label, .radio-label.error-label, .checkbox-label.error-label {
+  color: #b80000;
+  display: none;
+  font-size: 12px;
+  width: 100%;
+}
+
+.input-label {
+  cursor: pointer;
+}
+
+.group-label {
+  width: 100%;
+}
+
+.input-label, .error-label {
+  margin-left: 5px;
+}
+
+.radio-label, .checkbox-label {
+  cursor: pointer;
+  padding-left: 25px;
+  position: relative;
+}
+.radio-label::before, .radio-label::after, .checkbox-label::before, .checkbox-label::after {
+  box-sizing: border-box;
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background-color 0.2s ease-in;
+}
+.radio-label::before, .checkbox-label::before {
+  background-color: #fff;
+  border: 1px solid #fff;
+  height: 18px;
+  left: 0;
+	width: 18px;
+	border: solid 1px #aaa;
+}
+
+.radio-label::before, .radio-label::after {
+  border-radius: 50%;
+}
+.radio-label::after {
+  height: 8px;
+  left: 5px;
+  width: 8px;
+}
+
+.checkbox-label::before {
+  border-radius: 3px;
+}
+.checkbox-label::after {
+  border-radius: 2px;
+	height: 14px;
+	left: 2px;
+	width: 14px;
+}
+
+.box-container:not(.vertical-container) .checkbox-label, .box-container:not(.vertical-container) .radio-label {
+  margin-right: 20px;
+}
+
+.form-control {
+  background-color: #fff;
+  border: 1px solid #999999;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  outline: none;
+  padding: 10px;
+  transition: background-color 0.2s ease-in;
+  width: 100%;
+}
+.form-control:focus {
+  background-color: white;
+}
+.form-control:disabled {
+  background-color: #d9d9d9;
+  border-color: #d9d9d9;
+}
+.form-control:disabled + .input-label {
+  cursor: default;
+}
+.form-control.error + .input-label {
+  color: #b80000;
+}
+.form-control.error ~ .error-label {
+  display: block;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.form-control:-moz-placeholder {
+  color: #999999;
+}
+
+.form-control::-moz-placeholder {
+  color: #999999;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #999999;
+}
+
+.form-radio, .form-checkbox {
+  left: -10000px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+.form-radio:disabled + label, .form-checkbox:disabled + label {
+  color: #bbbbba;
+  cursor: default;
+}
+.form-radio:disabled + label::before, .form-checkbox:disabled + label::before {
+  border-color: #d9d9d9;
+  background-color: #d9d9d9;
+}
+.form-radio:disabled + label::after, .form-checkbox:disabled + label::after {
+  display: none;
+}
+.form-radio.error ~ .group-label, .form-checkbox.error ~ .group-label {
+  color: #b80000;
+}
+.form-radio.error ~ .error-label, .form-checkbox.error ~ .error-label {
+  display: block;
+}
+
+.form-radio:focus + label::before, .form-checkbox:focus + label::before {
+  background-color: white;
+}
+.form-radio:not(:checked) + label:hover::after, .form-checkbox:not(:checked) + label:hover::after {
+  background-color: #d9d9d9;
+}
+.form-radio:focus + label::after, .form-checkbox:focus + label::after {
+  background-color: #d9d9d9;
+}
+.form-radio:checked + label::after, .form-radio:checked:focus + label::after, .form-checkbox:checked + label::after, .form-checkbox:checked:focus + label::after {
+  background-color: #2196F3;
+}
+
+.form-checkbox:checked + label::after, .form-checkbox:checked:focus + label::after {
+	content: "✔";
+	color: #fff;
+	line-height: 1.2;
+	font-size: 12px;
+	text-align: center;
+}

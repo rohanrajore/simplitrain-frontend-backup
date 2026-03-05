@@ -1,0 +1,7 @@
+.userProfile-leftPanel{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  /* margin-top: 60px; */
+  top: 60px;
+  height: 330px;
+}

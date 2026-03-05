@@ -1,0 +1,55 @@
+const details = {
+                  "learners":[{"img":"https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg",
+                               "text":"a Designer"},
+                              {"img":"https://buildyourtest.co.uk/assets/img/free-profile-photo-whatsapp-4.png",
+                               "text":"a Developer"},
+                              {"img":"https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+                               "text":"a Writer"},
+                              {"img":"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+                               "text":"a Video Editor"},
+                              {"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0xhTDGBTUuG0KHbtBHDdw9buIwWDgU55Y-7X4GhXDA9WsBpjVkz0yf51KwcQnBbYOcNQ&usqp=CAU",
+                               "text":"a Designer"},
+                              {"img":"https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+                               "text":"a Musician"},
+                              {"img":"https://www.parttimely.com/wp-content/uploads/2018/10/60c2006bff938b82c4c8f50ec6e51f05-500x533.jpg",
+                               "text":"a Voiceover Artist"},
+                              {"img":"https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+                               "text":"a Designer"},
+                              {"img":"https://t3.ftcdn.net/jpg/02/51/11/96/360_F_251119657_bLGQ7VB6YzrdfEA88frR0Lw19dDBHAwj.jpg",
+                               "text":"a Designer"}
+                             ],
+
+                    "joinUs":[{"title":"Live Instructor led learning","text":"Live Trainings gives you an opportunity to interact with the instructor and get your questions answered in real time!"},
+                              {"title":"World Class Instructors","text":"Our instructors come with a strong industry experience and are experts in their fields"},
+                              {"title":"Seamless experience","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus sed quam ac a"}],
+
+                    "instructorStories":[{"text":"People love our logo, we love SimpliTrain.",
+                                           "img":"https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg",
+                                           "side":"left"},
+                                         {"text":"Amazing resource for anyone startup space.",
+                                           "img":"https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+                                           "side":"left"},
+                                         {"text":"There is no way I could have produced without.",
+                                           "img":"https://images.pexels.com/photos/2078265/pexels-photo-2078265.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+                                           "side":"right"},
+                                         {"text":"There is no way I could have produced without.",
+                                           "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmLi_BSePjHLv0mWV4jUzOwNwO8Ce_G79Yal19X-9pRK5_H4kQpSxCe6hjBfP2_Ku6bKM&usqp=CAU",
+                                           "side":"right"}
+                                         ],
+                   "QA":[{"question":"Can I speak with the instructor before I register?",
+                          "answer":"We have an option for you to message the instructor with in the portal."},
+                          {"question":"What are your payment options?",
+                            "answer":"Our payment service provider is RazorPay and all options from RazorPay are available to you."},
+                          {"question":"What are your refund options?",
+                            "answer":"For Online programs; If you cancel up to 48 hours before the course begins, you are eligible to receive the full amount back minus the transaction charges from the payment gateway provider<br />For Classroom  programs; if there are no venue cancellation charges then a similar refund policy applies. If the Venue provider has cancellation charges then the same will apply to you."},
+                          {"question":"How secure is my data?",
+                            "answer":"We only collect your email address and phone number to enable us to mail you receipt, reminders and venue directions. All other financial data entered at the time of payment is handled by Razor Pay. For more details, please read our privacy policy <a href='"+ window.location.origin +"/policies/privacy-and-cookie-policy'>here.</a>"},
+                          {"question":"Why should I register?",
+                            "answer":"When you register, you can keep a track of all your learning history and login and check your course details."},
+                          {"question":"Can I reschedule the course I have registered for?",
+                            "answer":"You can cancel and re-register the next course offered by the instructor."},
+                          ]
+
+}
+
+export default details;

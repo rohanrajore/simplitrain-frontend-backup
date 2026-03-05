@@ -1,0 +1,15 @@
+.wishlist-content{
+  width: 100%;
+  padding: 0 25px;
+  min-height: 600px;
+  margin-bottom: 20px;
+}
+.wishlist-title{
+  border-bottom: 1px solid #c4c8c4;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+}

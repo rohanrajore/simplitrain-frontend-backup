@@ -1,0 +1,48 @@
+.weekScheduler-container{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.weekScheduler-button{
+  width: 7%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weekScheduler-week{
+  width: 17%;
+  height: 100%;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.weekScheduler-week-date{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weekScheduler-week-courses{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1250px) {
+      .weekScheduler-week{font-size: 13px}
+}
+@media (max-width: 750px) {
+      .weekScheduler-week{font-size: 12px}
+}
+@media (max-width: 600px) {
+      .weekScheduler-week{font-size: 10px}
+}

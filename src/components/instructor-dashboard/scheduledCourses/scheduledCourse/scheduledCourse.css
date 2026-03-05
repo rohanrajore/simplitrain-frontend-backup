@@ -1,0 +1,107 @@
+.scheduled-header{
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0ebef;
+  color: 	#818487;
+}
+.header-split{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.scheduled-container{
+  width: 99%;
+  height: 250px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px #b1b5b5;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color:#818487;
+}
+.scheduled-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75%;
+}
+.scheduled-content{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+.scheduled-content img{
+  height: 100%;
+  width: 20%;
+}
+.scheduled-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+}
+.scheduled-buttons-container{
+  width: 20%;
+  height: 100%;
+  border-left: 1px solid #818487;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.scheduled-button{
+  width: 80%;
+  height: 20%;
+  border: 2px solid #018cb0;
+  border-radius: 10px;
+  color: #018cb0;
+  font-weight: bold;
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scheduled-button:hover{
+  background-color: #018cb0;
+  color: #fafafa;
+  cursor: pointer;
+}
+.scheduled-link{
+  text-decoration:none;
+  color:#818487;
+}
+.scheduled-link:hover{
+  color:#008cb6;
+}
+@media (max-width: 1150px) {
+  .scheduled-button{ width: 90%; font-size: 13px;}
+  .scheduled-container{font-size: 15px;}
+}
+
+@media(max-width: 650px){
+  .scheduled-container{height: auto; font-size: 14px; flex-direction: column; width: 70%; height: auto;}
+  .scheduled-details{flex-direction: column;}
+  .scheduled-content{flex-direction: column; align-items: center; justify-content: center; margin-top: 20px;}
+  .scheduled-content img{height: 200px; width: 200px;}
+  .scheduled-header{flex-direction: column;}
+  .header-split{width:100%;}
+  .scheduled-info{width: 100%;}
+  .scheduled-buttons-container{height: auto; width: 100%; border-left: none; border-top: 1px solid #818487}
+  .scheduled-button{height: auto; width: 35%;}
+  .course-title{ margin: 10px 0}
+  .course-classes{ margin: 10px 0}
+  .location{margin: 10px 0}
+}
+@media(max-width: 500px){
+  .scheduled-container{ width: 90%;}
+}

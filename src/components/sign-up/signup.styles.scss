@@ -1,0 +1,62 @@
+@mixin input-wrapper-defaults {
+  box-sizing: border-box;
+  border: 1px #838383 solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0 0 0 0;
+}
+
+.signupComponentWrapper {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  flex: 1;
+  flex-flow: column;
+  box-sizing: border-box;
+  padding: 10px;
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-basis: 100%;
+    box-sizing: border-box;
+
+    .signupEmailOptionsBox {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 20px;
+      box-sizing: border-box;
+
+      input{
+        display: flex;
+        align-items: center;
+        align-self: flex-end;
+        justify-content: center;
+        width: 20px;
+        margin-left: 10px;
+      }
+      label {
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 0;
+        flex: 3;
+        font-weight: normal;
+        color: #4e555b;
+      }
+    }
+  }
+
+  .termsText {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    padding-left: 5px;
+    flex-wrap: wrap;
+  }
+}

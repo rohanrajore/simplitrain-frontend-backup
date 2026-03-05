@@ -1,0 +1,106 @@
+.stepper-stepContainer > .fourthStep-container{
+width: 100%;
+min-height: 586px;
+background: #F7F7F7;
+border: 1px solid #CACACA;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+margin-bottom: 30px;
+}
+.fourthStep-container  .summaryTitle{
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.02em;
+color: #041016;
+margin-bottom: 10px;
+}
+.stepper-stepContainer > .fourthStep-container > div:first-child{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 20px;
+}
+.stepper-stepContainer > .fourthStep-container > div:first-child > .summaryTable{
+  border: 1px solid #EDEDED;
+  border-radius: 2px;
+  min-height: 83px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.stepper-stepContainer > .fourthStep-container > div:first-child > .summaryTable > div > div:first-child{
+  width: 25%;
+}
+.stepper-stepContainer > .fourthStep-container > div:first-child > .summaryTable > div > div:nth-child(2){
+  width: 25%;
+}
+.stepper-stepContainer > .fourthStep-container > div:first-child > .summaryTable > div > div:nth-child(3){
+  width: 30%;
+}
+.stepper-stepContainer > .fourthStep-container > div:first-child > .summaryTable > div > div:last-child{
+  width: 20%;
+}
+.stepper-stepContainer > .fourthStep-container > div:first-child .summary-tableHead{
+  display: flex;
+  padding: 9px 15px;
+  background: #DDDDDD;
+  border-radius: 2px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.stepper-stepContainer > .fourthStep-container > div:first-child .summary-tableBody{
+  display: flex;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #041016;
+}
+.stepper-stepContainer > .fourthStep-container > div:first-child > .summaryTable .greenMoney{
+  color: #2DB417;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+.stepper-stepContainer > .fourthStep-container > div:first-child > .summaryTable .redMoney{
+  color: #EB5757;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+.stepper-stepContainer > .fourthStep-container > div:first-child > .summaryTable .payBtn{
+  width: 90px !important;
+  height: 30px;
+  background: #2D9CDB;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stepper-stepContainer > .fourthStep-container > div:first-child > .summaryTable .payBtn:hover{
+  cursor: pointer;
+}
+.fourthStep-container  .summaryNote{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #303030;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.fourthStep-container  .summaryNote::before{
+  content:"\A";
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background: #4F4F4F;
+  display: inline-block;
+  margin-right: 8px;
+}

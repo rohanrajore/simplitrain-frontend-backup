@@ -1,0 +1,16 @@
+.mobileVerificationWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .mobileNumberWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .countryCode {
+      font-size: 1.5rem;
+    }
+
+  }
+}

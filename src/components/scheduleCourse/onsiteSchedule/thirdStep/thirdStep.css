@@ -1,0 +1,96 @@
+.onsite-thirdStep{
+  margin-top: 40px;
+}
+.onsite-thirdStep .third-title{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #041016;
+  margin-bottom: 15px;
+  position: relative;
+  min-height: 25px;
+}
+.onsite-thirdStep .third-title >svg{
+  width: 25px;
+  height: 25px;
+  color: #2D9CDB;
+  position: absolute;
+  right: 0;
+}
+.onsite-thirdStep .third-title >svg:hover{
+  cursor: pointer;
+}
+.onsite-thirdStep .third-price{
+  margin-bottom: 30px;
+  display: flex;
+}
+.onsite-thirdStep .select-location{
+  width: 93px;
+  height: 45px;
+  margin-right: 22px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #828282;
+}
+.onsite-thirdStep .select-location > div:first-child {
+  height: 45px
+}
+.onsite-thirdStep .select-location .css-1pahdxg-control{
+  height: 45px
+}
+.onsite-thirdStep .third-input{
+  height: 45px;
+  width: 175px;
+  margin-right: 22px;
+  border: 1px solid #BDBDBD;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #828282;
+}
+.onsite-thirdStep .third-input:focus{
+  outline-color: #2684FF
+}
+.onsite-thirdStep .third-couponContainer{
+  display: flex;
+  margin-bottom: 15px;
+}
+.onsite-thirdStep .third-datePicker{
+  width: 150px;
+  height: 45px;
+  border: 1px solid #BDBDBD;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #828282;
+  margin-right: 22px;
+}
+.onsite-thirdStep .third-datePicker:hover{
+  cursor: pointer;
+}
+.onsite-thirdStep .third-datePicker:focus{
+  outline: 1px solid #2684FF
+}
+.onsite-thirdStep .third-couponContainer > div:last-child{
+  width: 93px;
+  height: 45px;
+  background: #EB5757;
+  border: 1px solid #EB5757;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  margin-right: 0;
+  margin-left: auto;
+}
+.onsite-thirdStep .third-couponContainer > div:last-child:hover{
+  cursor: pointer;
+}
+.thirdStepBtn{
+  margin-top: 100px;
+}

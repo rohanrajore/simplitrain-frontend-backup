@@ -1,0 +1,70 @@
+.learn-container{
+  margin-top: 35px;
+  margin-left: 400px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#627373;
+}
+.learn-title{
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+.learn-elements{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #e8ebed;
+  padding: 20px 20px 0 20px;
+}
+.learn-elem{
+  width:43%;
+  display: flex;
+  justify-content: flex-start;
+  min-height: 40px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 2050px) {
+  .learn-container{
+    margin-left: 250px;
+    width: 47%;
+  }
+}
+@media (max-width: 1750px) {
+  .learn-container{
+    margin-left: 100px;
+    width: 55%;
+  }
+}
+@media (max-width: 1430px) {
+  .learn-container{
+    margin-left: 50px;
+    width: 55%;
+  }
+}
+@media (max-width: 1140px) {
+  .learn-container{
+    margin-left: 0px;
+    width: 70%;
+  }
+}
+@media (max-width: 800px) {
+  .learn-container{
+    margin-left: 0px;
+    width: 85%;
+  }
+}
+@media (max-width: 600px) {
+  .learn-container{
+    margin-left: 0px;
+    width: 95%;
+  }
+}

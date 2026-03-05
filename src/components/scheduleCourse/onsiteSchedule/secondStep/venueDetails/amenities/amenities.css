@@ -1,0 +1,123 @@
+.venueDetails-amenities{
+  border: 1px solid red;
+  width: 100%;
+  max-width: 670px;
+}
+.venueDetails-amenitiesContent{
+  border: 1px solid green;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.venueDetails-amenity{
+  width: max-content;
+  margin-right: 50px;
+  margin-bottom: 60px;
+}
+.venueDetails-amenity > div:first-child{
+  width: 95px;
+  height: 92px;
+  background: #EAF5FB;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.venueDetails-amenity > div:first-child > svg{
+  color: #2D9CDB;
+  width: 50px;
+  height: 40px;
+}
+.venueDetails-amenity > div:nth-child(2){
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #041016;
+  margin-bottom: 20px;
+}
+.venueDetails-amenityItem{
+  font-size: 14px;
+  line-height: 25px;
+  color: #4F4F4F;
+  margin-bottom: 5px;
+  width: max-content;
+  display: flex;
+}
+.venueDetails-amenityItem > div{
+  height: 24px;
+  padding: 5px 8px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  border-radius: 4px;
+  width: max-content;
+  margin-left: 8px;
+  position: relative;
+}
+.venueDetails-amenityItem > div[labeled=paid]{
+  background: #EB5757;
+}
+.venueDetails-amenityItem > div[labeled=free]{
+  background: #2DB417;
+}
+.venueDetails-amenityItem .amenity-popup{
+  position: absolute;
+  padding: 12px 15px;
+  background: white;
+  width: 298px;
+  border: 1px solid #2D9CDB;
+  display: flex;
+  bottom: 125%;
+  z-index: 10;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.venueDetails-amenityItem .amenity-popup .svgChevron{
+  color: #2D9CDB;
+  position: absolute;
+  top: 100%;
+  left: 2%;
+  width: 15px;
+  height: 15px;
+}
+.venueDetails-amenityItem .amenity-popup .amenity-popup-title{
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  padding-left: 5px;
+  border-left: 2px solid #2D9CDB;
+  margin-bottom: 7px;
+  display: flex;
+}
+.venueDetails-amenityItem .amenity-popup .amenity-popup-price{
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #EB5757;
+  margin-left: 10px;
+}
+.venueDetails-amenityItem .amenity-popup .amenity-popup-price[price=free] svg{
+  display: none;
+}
+.venueDetails-amenityItem .amenity-popup .amenity-popup-price[price=free]{
+  color: #2DB417
+}
+.venueDetails-amenityItem .amenity-popup .amenity-popup-description{
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #303030;
+  margin-bottom: 5px;
+}
+.venueDetails-amenityItem .amenity-popup .amenity-popup-text{
+  font-size: 12px;
+  line-height: 14px;
+  color: #4F4F4F;
+  font-weight: normal;
+}

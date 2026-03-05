@@ -1,0 +1,43 @@
+.secondStep-venueCard .venueCard-imageContainer{
+  height: 100%;
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+}
+.secondStep-venueCard .venueCard-imageContainer > img{
+  width: 188px;
+  height: 126px;
+  border-radius: 4px;
+}
+.secondStep-venueCard .venueCard-imageContainer > img:hover{
+  cursor: pointer;
+}
+.secondStep-venueCard .venueCard-imageContainer .venueCard-moreImages{
+   display: flex;
+   position: relative;
+}
+.secondStep-venueCard .venueCard-imageContainer .venueCard-moreImages > img{
+  width: 57px;
+  height: 56px;
+  margin-top: 8px;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+.secondStep-venueCard .venueCard-imageContainer .venueCard-moreImages > img:hover{
+  cursor: pointer;
+}
+.secondStep-venueCard .venueCard-imageContainer .venueCard-moreImages > img:nth-last-child(2){
+  filter: brightness(20%);
+}
+.secondStep-venueCard .venueCard-imageContainer .venueCard-moreImages .venueCard-moreBtn {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 17px;
+  right: 7px;
+}
+.secondStep-venueCard .venueCard-imageContainer .venueCard-moreImages .venueCard-moreBtn:hover{
+  cursor: pointer;
+}

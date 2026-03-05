@@ -1,0 +1,92 @@
+.calendar-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.calendar-content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.calendar-content > div:first-child{
+  border: 1px solid #EDEDED;
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+}
+.calendar-details{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+  height: auto;
+  background: white;
+}
+.days{
+  color: #2D9CDB;
+  height: 52px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.day{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #E0E0E0;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 52px;
+}
+.day > div:first-child{
+  font-size: 14px;
+  line-height: 17px;
+  color: #303030;
+}
+.day > div:not(:first-child){
+  font-size: 14px;
+  line-height: 17px;
+  color: #4F4F4F;
+}
+.day > div:not(:first-child) > span{
+  background: #F5F5F5;
+  border-radius: 4px;
+  padding: 5px 11px;
+  color: black;
+  margin-left: 8px;
+}
+.tile{
+ border-radius: 25%;
+}
+.eBookingCalendar{
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  border: none !important;
+  pointer-events:none !important;
+}
+.disable-calendar{
+  pointer-events:none !important;
+}
+
+@media (max-width: 1150px) {
+  .calendar-content{
+      flex-direction: column;
+  }
+}
+@media(max-width: 900px){
+    .calendar-details{font-size: 14px;}
+}
+@media(max-width: 600px){
+    .calendar-details{font-size: 13px; width: 95%;}
+}
+@media(max-width: 480px){
+  .calendar-details{font-size: 11px}
+}

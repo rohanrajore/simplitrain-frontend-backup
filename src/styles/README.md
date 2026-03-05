@@ -1,0 +1,1 @@
+This folder hosts all common styles of the project

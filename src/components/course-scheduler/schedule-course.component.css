@@ -1,0 +1,83 @@
+.schedule-title{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.schedule-dateContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.schedule-dateLeft{
+  width: 50%;
+  z-index: 13;
+}
+.schedule-timeContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.schedule-timeContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.schedule-timeLeft{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+.schedule-timeRight{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+.schedule-timeSelect{
+  width: auto;
+}
+.ignoreWeekend{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.disableWeekend{
+  background: none !important;
+  color: rgb(209, 0, 0);
+}
+.calendar-everyday-container{
+  display: flex;
+}
+.everyday-container{
+  width: 75%;
+  height: 400px;
+  position: relative;
+}
+.everydayTitle{
+  position: absolute;
+  top:-25px;
+  z-index: 150;
+}
+.everydayTitle:hover{
+  cursor: pointer;
+}
+.disable-calendar{
+  pointer-events:none !important;
+}
+.datepicker-no-focus{
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+@media (max-width:1150px) {
+  .calendar-everyday-container{flex-direction: column;}
+  .everyday-container{width: 100%; margin-top: 30px;}
+}
+@media (max-width:1030px) {
+  .schedule-timeContent{flex-direction: column;}
+  .schedule-timeLeft{width: 100%; margin-bottom: 40px;}
+  .schedule-timeRight{width: 100%}
+  .schedule-dateContainer{margin-bottom: 25px;}
+}

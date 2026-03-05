@@ -1,0 +1,26 @@
+.noHover{
+  color: #687075;
+}
+.course-details {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 700px;
+    scroll-behavior: smooth;
+  }
+  .page-container{
+    width: 100%;
+    margin-bottom: 45px;
+  }
+.ctg-margin{
+  margin-top: 0px !important;
+}
+  @media (max-width: 1140px) {
+    .page-container  {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }

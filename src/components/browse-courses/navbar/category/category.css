@@ -1,0 +1,41 @@
+.category-menu{
+  margin-bottom: 0px;
+}
+#categoryMenu{
+  background: #4183c4;
+}
+#categoryMenu > div{
+  color: white !important;
+}
+.dropdown-menu{
+  width:275px;
+  font-size:14px;
+}
+.bars icon{
+  margin-left: 15px;
+}
+.bars{
+  margin-left: 15px;
+}
+.icon{
+  margin-left: 15px;
+}
+#iconStyle i{
+  margin-left: 15px;
+}
+.dropdown-category{
+  width:100%;
+  padding: -5px !important;
+  height:10px !important;
+  color:#818487;
+}
+ .dropodown-subMenu{
+  position: absolute !important;
+  left: 150px !important;
+  top: 10px;
+  z-index: 15 !important;
+}
+.browse-all{
+  text-align: center;
+  color:#008cb6;
+}

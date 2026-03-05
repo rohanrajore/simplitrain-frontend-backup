@@ -1,0 +1,10 @@
+.instructorDashboard{
+    display: flex;
+    flex-direction: column;
+  }
+  .instructorDashboard-container{
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+    justify-content: flex-start;
+  }

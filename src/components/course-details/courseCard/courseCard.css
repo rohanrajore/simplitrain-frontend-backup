@@ -1,0 +1,140 @@
+.card-container{
+  margin-right:400px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  height: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  right:  0;
+  background-color: white;
+  color: #627373;
+  z-index: 30;
+}
+.card-image{
+  width: 99%;
+  height: 230px;
+  margin-bottom:15px;
+  margin-top: 2px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-image:hover{
+  cursor: pointer;
+}
+.card-price{
+  width: 85%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.card-price-tags{
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-price-promotion{
+  color: red;
+}
+.card-buttons{
+  width: 85%;
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-button1{
+  background: #2c9cdb;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: #fafafa;
+}
+.card-button1:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.card-button2{
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  background: #fafafa;
+  color: #627373;
+}
+.card-button2:hover{
+  cursor: pointer;
+  color: #fafafa;
+  background: #2c9cdb;
+  opacity: 0.5;
+}
+.card-coupons{
+  width: 85%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.card-coupon-separate{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  min-height: 60px;
+  font-size: 16px;
+}
+.card-coupon-separate div,
+.card-coupon-separate path,
+.card-coupon-separate svg{
+  pointer-events: none;
+}
+.card-coupon-separate:hover{
+  cursor: pointer;
+}
+.coupon-names{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.card-become-instructor{
+  width: 85%;
+  background-image: linear-gradient(to right, #44a6e1 , #81bbe0);
+  min-height: 130px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-become-text{
+  color: white;
+  font-size: 17px;
+  text-align: center;
+}
+@media (max-width: 2050px) {
+  .card-container  {margin-right: 250px;}
+}
+@media (max-width: 1750px) {
+  .card-container  {margin-right: 100px;}
+}
+@media (max-width: 1430px) {
+  .card-container  {margin-right: 50px;}
+}
+@media (max-width: 1140px) {
+  .card-container  {display: none;}
+}

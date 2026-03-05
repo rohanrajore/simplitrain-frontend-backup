@@ -1,0 +1,114 @@
+.cartPage-content{
+  margin-top: 35px;
+  width: 95%;
+  min-height: 750px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartPage-courses{
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #627373;
+}
+.cartPage-current-courses-title{
+  font-weight: bold;
+  font-size: 18px;
+  height: 30px;
+}
+.cartPageTopMargin{
+  margin-top: 35px;
+}
+.cartPage-summary{
+  width: 22%;
+  height: 350px;
+  margin-top: 40px;
+}
+.cartPage-summary-details{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  flex-direction: column;
+  height: auto;
+  color: #627373;
+  background: #f3f3f3;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+  position: relative;
+}
+.cartPage-summary-course{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #c4c8c4;
+  width: 100%;
+}
+.cartPage-summary-courseRow{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: bold;
+}
+.cartPage-summary-courseRow > :first-child{
+  width: 70%;
+}
+.courseRow-subtotal{
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}
+.courseRow-gst{
+  color:black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.cartPage-remove-coupon{
+  color: #d90243;
+  font-weight: bold;
+  position: absolute;
+  right: 5px;
+}
+.cartPage-remove-coupon:hover{
+  cursor: pointer;
+}
+.cartPage-summary-price{
+  font-size: 20px;
+  font-weight: bold;
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+}
+.cartPage-summary-button{
+  background: #d90243;
+  color: white;
+  height: 40px;
+  width: 90%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.cartPage-summary-button:hover{
+  cursor: pointer;
+  color: white;
+}
+.cartPage-summary-oldPrice{
+  text-decoration: line-through;
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+}
+.cartCourse-textThrough{
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+.cartPage-summary-couponList{
+  padding-left: 25px;
+}

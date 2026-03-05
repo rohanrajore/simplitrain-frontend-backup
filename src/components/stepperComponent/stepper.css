@@ -1,0 +1,16 @@
+.stepperComponent-container{
+  width: 325px;
+  min-height: 400px;
+  margin-bottom: auto;
+  background: #F5F5F5;
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 20px;
+}
+.stepperComponent-title{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #041016;
+  margin-bottom: 30px;
+}

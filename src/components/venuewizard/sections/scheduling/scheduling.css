@@ -1,0 +1,9 @@
+.scheduling-container{
+  display: flex;
+}
+.scheduling-left{
+  margin-right: 150px;
+}
+.venue-scheduling-time{
+  display: flex;
+}

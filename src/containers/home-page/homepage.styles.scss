@@ -1,0 +1,89 @@
+$primaryColor: #3aad91;
+$secondaryColor: #fff;
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+
+  .becomeInstructorBtn {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: $primaryColor;
+    color: $secondaryColor;
+    display: block;
+    text-align: center;
+  }
+
+}
+
+@keyframes backImage {
+  0%   {opacity: 0;}
+  10%  {opacity: 1;}
+  80%  {opacity: 1;}
+  100% {opacity: 0}
+}
+.homePage-coverImage {
+  width: 100vw;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.features-card {
+  height: 80px;
+  width: 100vw;
+  background-image: linear-gradient(to right, #4593ce, #7aa5c7);
+  color: #fff;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  div {
+    display: flex;
+    flex-direction: row;
+
+    i {
+      display: flex;
+      font-size: 1.2em;
+      margin-right: 10px;
+      padding-top: 20px;
+      justify-content: center;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      h2 {
+        display: flex;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin: 15px 0 0;
+        font-family: 'Lato', sans-serif;
+      }
+
+      p {
+        margin-top: 10px;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+
+}
+
+
+
+.explore-courses-wrapper-bottom {
+  height: 80px;
+  width: 100vw;
+  background-image: linear-gradient(to right, #4593ce, #7aa5c7);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+}

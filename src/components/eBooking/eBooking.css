@@ -1,0 +1,361 @@
+.eBooking-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 650px;
+}
+.eBooking-page header {
+	color: #fff;
+	background: -webkit-linear-gradient(left, #1e5799 0%, #7db9e8 100%);
+	background: linear-gradient(to right, #1e5799 0%, #7db9e8 100%);
+}
+.eBooking-page header {
+	background-color: cadetblue;
+	width: 100%;
+	height: 100px;
+	padding: 10px 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.eBooking-page-title{
+  margin-left: 10%;
+}
+.eBooking-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 97%;
+  color: #627373;
+  background: #f3f3f3;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  margin-bottom: 20px;
+}
+.eBooking-message{
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin: 20px 0;
+}
+.eBooking-course-details-container{
+  display: flex;
+  background: #f3f3f3;
+  width: 100%;
+  height: 250px;
+  justify-content: space-between;
+  align-items: center;
+}
+.eBooking-QR{
+  width: 20%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.eBooking-course{
+  width: 65%;
+  height: 90%;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.eBooking-course-img{
+  height: 90%;
+  width: 200px;
+  margin-left: 20px;
+}
+.eBooking-course-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 73%;
+  height: 80%;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+.eBooking-course-authorMessage{
+  display: flex;
+  flex-wrap: wrap;
+}
+.eBooking-course-message{
+  color: #4183c4;
+  margin-left: 35px;
+}
+.eBooking-course-price{
+  font-size: 20px;
+  font-weight: bold;
+  color:#d90243;
+}
+.eBooking-course-title{
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+.eBooking-info{
+  width: 30%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  background: white;
+  padding: 15px 25px;
+  font-size: 15px;
+  color: black;
+}
+.eBooking-infoItem{
+  display: flex;
+  justify-content: space-between;
+}
+.eBooking-anchors{
+  display: flex;
+  flex-wrap: wrap;
+  color:#4183c4;
+  font-weight: bold;
+  font-size: 15px;
+  justify-content: space-between;
+}
+.eBooking-anchors a {
+  margin-bottom: 10px;
+}
+.eBooking-schedule-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  width: 100%;
+}
+.eBooking-schedule-content{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.eBooking-schedule-title{
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.eBooking-schedule-close{
+  color: red;
+  font-weight: bold;
+}
+.eBooking-schedule-close:hover{
+  cursor: pointer;
+}
+.eBooking-calendar-container{
+  display: flex;
+}
+.eBooking-venue-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 25%;
+}
+.eBooking-venue{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 90%;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+.eBooking-venueImg{
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.eBooking-venue > div{
+  padding: 5px 10px;
+}
+.eBooking-venue > a{
+  padding: 0 10px;
+}
+.eBooking-venue > a:last-child{
+  margin-bottom: 10px;
+}
+.eBooking-textContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.eBooking-textContainer-title{
+  font-weight: bold;
+  color: black;
+  font-size: 17px;
+  margin: 10px 0 20px 0;
+  position: relative;
+}
+.eBooking-textContainer-details{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.eBooking-textClose{
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.eBooking-textClose:hover{
+  cursor: pointer;
+}
+.eBooking-venue a{
+  margin-top: 10px;
+}
+.eBooking-textContainer-element{
+  margin-right: 150px;
+  margin-bottom: 15px;
+  min-width: 200px;
+  display: flex;
+}
+.marginRight0{
+  margin-right: 0;
+}
+.eBooking-navbar{
+  border-bottom: 1px solid #c4c8c4;
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+.eBooking-navbar > ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 0;
+  height: 35px;
+  padding-left: 0px;
+}
+.eBooking-navbar > ul >li{
+  border-right: 1px solid #c4c8c4;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+.eBooking-navbar > ul >li >div{
+  padding-left: 0;
+}
+.eBooking-navbar > ul >li:last-child{
+  border-right: none;
+}
+.myCourses-feedback-container{
+  border: 1px solid rgb(196, 200, 196);
+  background: white;
+  margin-top: 20px;
+  min-height: 250px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  color: #627373;
+  font-size: 14px;
+  font-weight: normal;
+}
+.myCourses-feedback-container > div:first-child{
+  border-bottom: 1px solid #c4c8c4;
+  margin-bottom: 15px;
+}
+.myCourses-feedback-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  min-height: 50px;
+  margin-bottom: 10px;
+}
+.feeback-title-row{
+  color: black;
+}
+.myCourses-feedback-row > div:first-child{
+  font-weight: bold;
+  color: black;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.myCourses-radioBtn{
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myCourses-feedback-row input:focus{
+  outline: none;
+}
+.myCourses-feedback-row input:hover{
+  cursor: pointer;
+}
+.myCourses-feedback-textAreas{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.myCourses-feedback-textAreas textarea{
+  width: 300px;
+  margin: 10px 45px 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+.myCourses-feedback-textAreas textarea:focus{
+  outline-color: rgb(65, 131, 196)
+}
+.feedback-textArea-title{
+  font-weight: bold;
+  color: black;
+}
+.feedback-submitBtn{
+  width: 150px;
+  height: 40px;
+  background: #4183c4;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-submitBtn-err{
+  width: 150px;
+  height: 40px;
+  background: #A4BEFD;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.feedback-submitBtn:hover{
+  cursor: pointer;
+  opacity: 0.9;
+  transition-duration: 0.2s;
+}
+.feedback-provided{
+  font-size: 24px;
+  font-weight: bold;
+  color: green;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.feedback-errForm{
+  color: red;
+  font-size: 16px;
+  position: absolute;
+  right: -150px;
+}

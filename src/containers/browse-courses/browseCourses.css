@@ -1,0 +1,17 @@
+.browse-courses {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-height: 650px;
+}
+.browse-courses-content {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-top: 25px;
+  padding-top: 5px;
+  height: auto;
+}

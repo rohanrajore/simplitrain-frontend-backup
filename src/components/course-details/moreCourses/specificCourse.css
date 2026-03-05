@@ -1,0 +1,28 @@
+.specific-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 25%;
+  height: 100%;
+  min-height: 350px;
+  margin-top: 25px;
+}
+.specific-container:hover{
+  cursor: pointer;
+}
+.specific-container img{
+  height: 200px;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+    .specific-container{
+      width:50%
+    }
+}
+
+@media (max-width: 600px) {
+    .specific-container{
+      width:65%
+    }
+}

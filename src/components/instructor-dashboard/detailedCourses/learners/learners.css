@@ -1,0 +1,47 @@
+.learners-container{
+  width: 99.5%;
+  height: 100%;
+  border-spacing:0;
+}
+.learners-header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #eff4f7;
+}
+.learners-row td{
+  margin-bottom: 50px;
+}
+.learners-row{
+  height: 50px;
+}
+.learners-button{
+  margin-right: 0;
+  margin-left: auto;
+  width: 50%;
+  height: 80%;
+  border: 2px solid #018cb0;
+  border-radius: 10px;
+  color: #018cb0;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.learners-button:hover{
+  background-color: #018cb0;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+
+@media (max-width: 1150px) {
+  .learners-container{font-size: 15px;}
+}
+@media (max-width: 900px) {
+  .learners-container{font-size: 13px;}
+}
+@media (max-width: 600px) {
+  .learners-container{font-size: 12px;}
+}

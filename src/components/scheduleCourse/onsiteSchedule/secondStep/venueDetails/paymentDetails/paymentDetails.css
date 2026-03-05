@@ -1,0 +1,94 @@
+.secondStep-venueDetails .venueDetails-payment{
+  background: #F5F5F5;
+  border-radius: 4px;
+  width: 325px;
+  min-height: 498px;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.secondStep-venueDetails .venueDetails-payment > div:first-child{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #041016;
+  margin-bottom: 30px;
+}
+.secondStep-venueDetails .venueDetails-payment > .venueDetails-paymentItem{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #303030;
+}
+.secondStep-venueDetails .venueDetails-payment > .venueDetails-paymentItem .venueDetails-infoIcon{
+  color: #2D9CDB;
+  margin-left: 5px;
+}
+.secondStep-venueDetails .venueDetails-payment .venueDetails-paymentTotal{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-top: 1px solid rgba(79, 79, 79, 0.15);
+  border-bottom: 1px solid rgba(79, 79, 79, 0.15);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2DB417;
+  margin-bottom: 10px;
+}
+.secondStep-venueDetails .venueDetails-payment .venueDetails-paymentAdvance{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EB5757;
+  margin-bottom: 30px;
+}
+.secondStep-venueDetails .venueDetails-payment svg{
+  font-weight: 300 !important;
+  margin-right: 4px;
+}
+.secondStep-venueDetails .venueDetails-payment .venueDetails-paymentAdd{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: #2D9CDB;
+  margin-bottom: 12px;
+  width: max-content;
+}
+.secondStep-venueDetails .venueDetails-payment .venueDetails-paymentAdd:hover{
+  cursor: pointer;
+}
+.secondStep-venueDetails .venueDetails-payment .venueDetails-paymentBtn{
+  background: #2D9CDB;
+  border-radius: 4px;
+  height: 45px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.secondStep-venueDetails .venueDetails-payment .venueDetails-paymentBottom{
+  margin-top: 60px;
+}
+.secondStep-venueDetails .venueDetails-payment .venueDetails-paymentBtn:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}

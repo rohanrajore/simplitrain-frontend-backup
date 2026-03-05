@@ -1,0 +1,7 @@
+.rangeSlider{
+    width: 180px;
+  }
+
+@media (max-width: 1250px) {
+  .rangeSlider{width:150px}
+}

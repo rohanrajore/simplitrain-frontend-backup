@@ -1,0 +1,49 @@
+.eyeIcon{
+  margin-left: 5px;
+}
+.eyeIcon:hover{
+  cursor: pointer;
+}
+.accountNo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.accountNo-hideShow{
+  position: absolute;
+  right: 10px;
+  color: #389ac4;
+}
+.accountNo-hideShow:hover{
+  cursor: pointer;
+}
+.nationalId-uploaded{
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 250px;
+  width: 250px;
+  margin: 10px 0;
+}
+.pdf-container{
+  height: 500px;
+  overflow-y: scroll;
+  margin: 10px 0;
+  position: relative !i;
+}
+.pdf-page-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 20px;
+}
+.pdf-page-text{
+  margin: 0 10px;
+}
+.pdf-icon-hover:hover{
+  cursor: pointer;
+}
+.saveBtn-margin{
+  margin-right: 30px;
+}

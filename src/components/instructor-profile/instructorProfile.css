@@ -1,0 +1,61 @@
+.instructor-profile-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.instructor-profile-content{
+  margin-top: 25px;
+  width: 88%;
+  display: flex;
+}
+
+.instr-blue{
+  color:#4a8ab0;
+  font-size: 23px;
+  margin-bottom: 5px !important;
+}
+.instr-font{
+  font-size: 15px;
+}
+.instr-img{
+  width: 175px;
+  height: 175px;
+}
+#react-paginate-instructor-profile{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #627373;
+  margin-top: 55px;
+}
+
+#react-paginate.no-margin-left {
+  margin-left: 0px !important;
+}
+
+#react-paginate-instructor-profile ul {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+#react-paginate-instructor-profile li {
+    display: inline-block;
+}
+@media (max-width:768px) {
+    .instructor-profile-content{
+      flex-direction: column;
+      align-items: center;
+    }
+}

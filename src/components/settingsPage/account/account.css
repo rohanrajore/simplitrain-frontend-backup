@@ -1,0 +1,36 @@
+
+.settings-account-section p{
+  font-size: 12px;
+}
+.settings-account-btnContainer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.settings-account-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #008cb6;
+  color: #008cb6;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 35px;
+  margin-right: 25px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  min-width: 200px;
+}
+.settings-account-btn:hover{
+  cursor: pointer;
+  background: #008cb6;
+  color: white;
+}
+.btnRed{
+  border-color: red;
+  color: red;
+}
+.btnRed:hover{
+  background: red;
+  color: white;
+}

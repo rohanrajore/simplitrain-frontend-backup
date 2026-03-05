@@ -1,0 +1,122 @@
+import styled from 'styled-components';
+
+export const FinanceStyle = styled.div`
+.instructorBatch-finance-table{
+  width: 95.5%;
+  border: 1px solid #EDEDED;
+  border-radius: 4px;
+  margin-bottom: 0 !important;
+  @media (min-width:320px) and (max-width: 768px) {
+    width: 100%;
+  }
+}
+.instructorBatch-finance-table-head{
+ border-bottom: 1px solid #EDEDED;
+ background: #F0F5FF;
+ height: 45px;
+ display: flex;
+ align-items: center;
+ padding-left: 20px;
+ padding-right: 30px;
+ font-size: 14px;
+ line-height: 17px;
+ color: black;
+}
+.instructorBatch-finance-table-head > div:first-child{
+  width: 35%
+}
+.instructorBatch-finance-table-head > div:nth-child(2){
+  width: 25%
+}
+.instructorBatch-finance-table-head > div:nth-child(3){
+  width: 25%
+}
+.instructorBatch-finance-table-head > div:last-child{
+  width: 15%;
+  text-align: right;
+}
+.instructorBatch-finance-table-body{
+  background: white;
+  padding: 30px 30px 20px 20px;
+}
+.instructorBatch-finance-table-bodyItem{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #EDEDED;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 6px;
+}
+.instructorBatch-finance-table-bodyItem > div:first-child{
+  color: #4F4F4F;
+  width: 35%
+}
+.instructorBatch-finance-table-bodyItem > div:nth-child(2){
+  color: #EB5757;
+  font-weight: 500;
+  width: 25%;
+}
+.instructorBatch-finance-table-bodyItem > div:nth-child(3){
+  color: #2DB417;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  width: 25%;
+}
+.instructorBatch-finance-table-bodyItem > div:last-child{
+  color: #4F4F4F;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  width: 15%;
+  text-align: right;
+}
+
+.instructorBatch-finance-table-summary{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4F4F4F;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.instructorBatch-finance-table-summary > div:first-child{
+  width: 35%;
+}
+.instructorBatch-finance-table-summary > div:nth-child(2){
+  width: 25%;
+}
+.instructorBatch-finance-table-summary > div:nth-child(3){
+  width: 25%;
+}
+.instructorBatch-finance-table-summary > div:last-child{
+  width: 15%;
+  letter-spacing: 0.02em;
+  text-align: right;
+}
+.instructorBatch-finance-table-summary > div[profit=true]{
+  color: #2DB417;
+}
+.instructorBatch-finance-table-summary > div[profit=false]{
+  color: #EB5757;
+}
+.instructorBatch-details{
+  .tabTitle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:15px;
+    border-top: 1px solid #EDEDED;
+    padding: 15px 0px 0px 0px;
+  }
+}
+.instructorBatch-details-close{
+  color: #EB5757;
+  font-size: 17px;
+}
+.instructorBatch-details-head{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+`
+

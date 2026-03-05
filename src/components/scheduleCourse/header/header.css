@@ -1,0 +1,16 @@
+.blueHeader-container{
+  background: #2D9CDB;
+  padding: 15px 40px;
+}
+.blueHeader-container > div:first-child{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+.blueHeader-container > div:last-child{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}

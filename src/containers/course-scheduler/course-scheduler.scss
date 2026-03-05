@@ -1,0 +1,180 @@
+.react-date-picker {
+    display: block;
+}
+
+fieldset {
+    min-width: 30% !important;
+    border: solid 0.5px !important;
+    margin: 5px !important;
+    padding: 20px !important;
+
+    // &.fieldset1 {
+    //     height: 30%;
+    // }
+}
+
+.custom-select {
+    width: unset !important;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.inline-label {
+    padding-left: 5px;
+}
+
+.min-select {
+    padding-left: 10px;
+    display: inline;
+}
+
+.fieldset2-div {
+    display: flex;
+}
+
+.MuiTablePagination-input, .MuiTableHead-root {
+    display: none !important;
+}
+
+.width120 {
+    width: 120%;
+}
+
+.venue-container {
+    height: 85%;
+}
+
+.pl2 {
+    padding-left: 2rem !important;
+}
+
+.float-container {
+    border: 3px solid #fff;
+    margin-left:250px;
+}
+
+.float-child {
+    width: 213.75px;
+    height: 45px;
+    float: left;
+    padding: 10px;
+    border: 2px solid gray;
+    text-align: center;
+    justify-content: center;
+
+    &.selected {
+        background-color: #2D9CDB;
+        cursor: default;
+    }
+    &:not(.selected) {
+        cursor: pointer;
+    }
+}
+
+.online {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.onsite {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.venue-cont {
+    margin-top: 100px;
+}
+
+.float-child-img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 20px;
+    border: 2px solid gray;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    &.selected {
+        border: 2px solid #2D9CDB;
+        cursor: default;
+    }
+    &:not(.selected) {
+        cursor: pointer;
+    }
+
+    & .zoom {
+        height: 100px;
+        width:100px;
+        background-image: url("../../styles/images/onlineVenue/zoomIcon.jpeg");
+    }
+
+    & .zoho {
+        height: 100px;
+        width:100px;
+        background-image: url("../../styles/images/onlineVenue/zoho.png");
+    }
+}
+
+.icon-img {
+    height: 100%;
+    width: 100%;
+}
+
+.input-group {
+    &.pt-2 {
+        padding-top: 3rem;
+    }
+}
+
+.text-set {
+    width: 888px;
+left: 452px;
+top: 526px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+}
+
+.form-footer {
+    &.venue-footer {
+        margin-top: 5rem;
+    }
+}
+
+#mui-rte-root {
+    height: 200px !important;
+    border: 1px solid #2D9CDB !important;
+
+    #mui-rte-toolbar {
+        border-bottom: 1px solid black !important;
+    }
+}
+
+.input-group-prepend {
+    &.w-120 {
+        .MuiAutocomplete-root {
+            width: 120px !important;
+        }
+    }
+}
+
+
+.price-input {
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+.coupon-group {
+    .react-date-picker {
+        margin-top: 9px;
+        margin-right: 10px;
+    }
+}

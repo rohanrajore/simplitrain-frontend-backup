@@ -1,0 +1,24 @@
+.listPanel-container{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 35px;
+}
+.link-listPanel{
+  height: 35px;
+  border: 1px solid #2d9cdb;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color:#303030;
+}
+.activeLink-policy{
+  background: red;
+}
+@media (max-width:768px) {
+    .listPanel-container{
+      margin-bottom: 25px;
+      margin-right: 0;
+    }
+}

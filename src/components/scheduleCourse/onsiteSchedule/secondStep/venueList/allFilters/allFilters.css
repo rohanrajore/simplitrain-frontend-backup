@@ -1,0 +1,108 @@
+.secondStep-venueList .secondStep-allFilters{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left:0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-content{
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 80%;
+  max-width: 1100px;
+  height: auto;
+  padding: 20px;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-filters{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  min-height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-filters .allFilters-item{
+  width: 200px;
+  margin-right: 50px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-filters .allFilters-item .select-location{
+  margin-bottom: 20px;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-filters .allFilters-item > span{
+  margin-top:30px;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-filters .allFilters-filterName{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #303030;
+  margin-bottom: 20px;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-filters .allFilters-checkbox{
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-filters .allFilters-checkbox input{
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-filters .allFilters-checkbox input:hover{
+  cursor: pointer;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-filters .allFilters-checkbox label{
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-filters .allFilters-checkbox label:hover{
+  cursor: pointer;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-btns{
+  display: flex;
+  justify-content: flex-end;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-btns >div:last-child{
+  background: #2D9CDB;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  width: 150px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-btns >div:first-child{
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-btns >div:hover{
+  cursor: pointer;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-btns >div:first-child:hover{
+  font-weight: bold;
+}
+.secondStep-venueList .secondStep-allFilters .allFilters-btns >div:last-child:hover{
+  opacity: 0.8;
+  transition: 0.3s
+}

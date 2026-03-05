@@ -1,0 +1,110 @@
+.loginComponentWrapper {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-basis: 100%;
+
+    .termsText {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      padding-left: 5px;
+    }
+  }
+
+  .emailLoginBtn {
+
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  .loginOptionsBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+
+    div {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        margin-left: 10px;
+      }
+
+      label {
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 0;
+        font-weight: normal;
+        flex: 2;
+        color: #4e555b;
+      }
+
+
+    }
+
+
+    a {
+      text-decoration: none;
+      align-self: flex-end;
+      font-size: 0.9rem;
+    }
+  }
+
+  .orText {
+    text-align: center;
+  }
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  * {
+    margin: 5px;
+  }
+
+  .socialButtonsText {
+    margin-right: 20px;
+  }
+
+  .my-facebook-button-class {
+    border-radius: 50%;
+    border: none;
+    background-color: #3b5998;
+    font-size: 1.5em;
+  }
+
+  .googleBtn {
+    border-radius: 50%;
+    border: none;
+    background-color: #3b5998;
+    font-size: 1.5em;
+    width: 50px;
+    padding: 5px;
+    display: flex;
+
+    div {
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,206 @@
+html, body, #root {
+	height: 100%;
+	margin: 0;
+	/*overflow: hidden;*/
+}
+
+#root > div,
+.wizard-container {
+	height: auto;
+	min-height: 80vh;
+}
+.wizard-container header,
+.wizard-container footer {
+	color: #fff;
+	background:#2D9CDB;;
+}
+.wizard-container h5 {
+	margin: 15px 0;
+}
+.wizard-container header {
+	/* position: fixed;
+	top: 0;
+	left: 0; */
+	background-color: #2D9CDB;;
+	/* width: calc(100% - 60px); */
+	height: 90px;
+	padding: 10px 30px;
+}
+.wizard-container header > div {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+.wizard-container header h2,
+.wizard-container header h5 {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.wizard-container footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: cadetblue;
+	width: 100%;
+	height: 50px;
+}
+
+.wizard {
+	display: flex;
+	align-items: flex-start;
+	height: 100%;
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+.wizard .btn {
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	padding: 8px 20px;
+	background-color: #fff;
+	color: #1e5799;
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.wizard .btn.blue {
+	color: #fff;
+	background-color: #1e5799;
+	position: absolute;
+	right: 0;
+	margin-right: 15px;
+}
+.wizard .btn-addTag{
+	color: #fff;
+	background-color: #1e5799;
+	margin-right: 15px;
+}
+.wizard .btn.btn-cancel {
+	color: #F44336;
+}
+.wizard .btn.btn-save {
+	color: #fff;
+	background-color: #4CAF50;
+}
+
+.wizard-steps {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    counter-reset: liCounter;
+    width: 83%;
+}
+.wizard-steps h5 {
+  padding-left: 0px;
+  margin-bottom: 34px;
+}
+.wizard-steps ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+}
+.wizard-steps ul::before {
+	content: "";
+	display: block;
+	width: 2px;
+	height: 100%;
+	background-color: #ABD7F1;
+	position: absolute;
+	left: 12px;
+}
+.wizard-steps li {
+	padding-left: 35px;
+	margin-bottom: 52px;
+	counter-increment: liCounter;
+	cursor: pointer;
+}
+.wizard-steps ul li.current {
+	font-weight: 500;
+	color: #2D9CDB;
+}
+.wizard-steps ul li::before {
+	content: counter(liCounter);
+	display: block;
+	border: solid 1px #2D9CDB;
+	color: #2D9CDB;
+	position: absolute;
+	left: 0;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	text-align: center;
+	background: #fff;
+	line-height: 24px;
+}
+.wizard-steps ul li.done::before {
+	content: "✔";
+	color: #fff;
+	background-color: #4CAF50;
+}
+.wizard-steps ul li.current::before{
+	background: #2D9CDB;
+	color: #fff;
+}
+.wizard-steps li span {
+	position: relative;
+	/* top: 5px; */
+}
+
+.wizard-controls {
+	position: absolute;
+	bottom: -55px;
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	min-height: 50px;
+	height: auto;
+}
+
+.wizard-sections {
+	flex: 1;
+	position: relative;
+	min-height: 700px;
+	height: 100%;
+	margin-bottom: 75px;
+}
+
+.wizard-section {
+	display: none;
+
+	width: 100%;
+	padding-top: 20px;
+	padding-right: 20px;
+	height: calc(100% - 210px);
+}
+.wizard-section.active {
+	display: block;
+}
+.wizard-section-title {
+	margin-bottom: 5px;
+}
+
+.error {
+	color: #F44336
+}
+.back-dashboard-btn{
+	color: #fff;
+	background-color: #2D9CDB;
+	border-radius: 5px;
+	max-width: 220px;
+	margin-left: 35px;
+	margin-top: 20px;
+	min-height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.back-dashboard-btn:hover{
+	cursor: pointer;
+}

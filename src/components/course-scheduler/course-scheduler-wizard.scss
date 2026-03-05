@@ -1,0 +1,796 @@
+.course-scheduler-wizard .wizard {
+	max-width: initial;
+}
+.online-venue-icons {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;;
+}
+.online-venue-icons > div {
+	border: solid 2px #999;
+	margin: 0 10px;
+}
+
+.venue-tabs {
+	display: flex;
+	justify-content: center;
+}
+
+.venue-tabs > div {
+	border: solid 1px #999;
+	padding: 0;
+	height: 40px;
+	width: 100px;
+	cursor: pointer;
+}
+.venue-tabs > div:first-child {
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+.venue-tabs > div:last-child {
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.venue-tabs > div.selected {
+	background-color: #2d8cff;
+	color: #fff;
+}
+.venueType-link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	color: inherit;
+}
+.venueType-link:hover{
+	color:inherit;
+}
+input.price-input {
+	height: initial;
+}
+.flex1 {
+	flex: 1;
+}
+
+.rating-active svg {
+	color: #ccc;
+}
+.rating-active .star-active {
+	color: #FF9800
+}
+
+.onsite-venue {
+
+	.onsite-filters {
+		background-color: #dde7ee;
+		margin: 10px 0;
+	}
+
+	.onsite-filters .filters-header {
+		position: relative;
+		display: flex;
+    	justify-content: space-between;
+		padding: 10px;
+		background:#F0F5FF;
+		flex-wrap: wrap;
+	}
+	.onsite-filters .filters-header button span {
+		margin: 0 10px;
+	}
+	.onsite-filters .filters-searchInput{
+		border: 1px solid grey;
+		display: flex;
+		background: white;
+		align-items: center;
+		border-radius: 20px;
+		width: 330px;
+	}
+	@media(max-width: 1064px){
+		.onsite-filters .filters-searchInput{order: 3; margin-top:10px}
+	}
+	.onsite-filters .filters-searchInput input{
+		border: none;
+		width: 200px;
+	}
+	.onsite-filters .filters-searchInput input:focus{
+		outline: none;
+	}
+	.onsite-filters .filters-searchInput .filters-locateMe{
+		background: #ededed;
+		border-radius: 20px;
+		height: 65%;
+		width: 100px;
+		display: flex;
+		align-items: center;
+		color: grey;
+	}
+	.onsite-filters .filters-searchInput .filters-locateMe:hover{
+		cursor: pointer;
+		color: #4183c4;
+	}
+
+	.onsite-filters h5{
+		margin-right: 10px;
+		font-size: 16px;
+		width: 90px;
+	}
+
+	.onsite-filters section {
+		display: flex;
+		flex-wrap: wrap;
+		overflow: hidden;
+    transition: height .4s ease;
+    height: 0px;
+	}
+	.onsite-filters section.open {
+		min-height: 200px;
+		height: auto;
+	}
+	.onsite-filters section > div {
+		padding: 10px 20px;
+	}
+	.onsite-filters section > div.w50 {
+		width: 50%;
+	}
+	.onsite-filters .w50-btnContainer{
+		width: 50%;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+	.onsite-filters .w50-btnContainer button{
+		background: #2c9cdb;
+		color: white;
+		border-radius: 25px;
+	  border: none;
+		height: 30px;
+	}
+	.onsite-filters .w50-btnContainer .onsiteFirstBtn{
+		background: none;
+		color: #2c9cdb;
+	}
+	.onsite-filters .w50-btnContainer .onsiteSecondBtn{
+		width: 150px;
+	}
+	.onsite-filters .w50-btnContainer .onsiteSecondBtn:hover{
+		opacity: 0.8;
+	}
+	.onsite-filters section > div.w100 {
+		width: 100%;
+	}
+	.onsite-filters .table-row {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 15px;
+		align-items: center;
+	}
+	.onsite-filters .input-checkbox {
+		display: table-cell;
+		padding-right: 15px;
+		padding-bottom: 10px;
+	}
+	.onsite-filters .input-checkbox label {
+		font-weight: 400;
+	}
+
+	.onsite-filters button {
+		border-radius: 20px;
+    border: solid 1px #ccc;
+    padding: 5px 25px;
+	}
+
+	.active-filters {
+		margin-bottom: 20px;
+	}
+	.active-filters .tag,
+	.active-filters .tag button {
+		border: solid 1px #444;
+		padding: 4px 10px;
+		background-color: #fff;
+		margin: 5px 5px 10px 5px;
+	}
+	.active-filters .tag {
+		border-radius: 20px;
+		padding: 4px 15px;
+		display: inline-block;
+		margin-bottom: 5px;
+		color: #2d8cff;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.active-filters .tag button {
+		border-radius: 50%;
+    margin: 0 -5px 0 8px;
+    font-size: 12px;
+	}
+
+	.active-filters .title {
+		display: inline-block;
+		margin-right: 15px;
+		font-weight: 500;
+		color: #555;
+	}
+	.active-filters .MuiInput-underline:before,
+	.active-filters .MuiInput-underline:after {
+		border-bottom: none !important;
+	}
+	#select-participants,
+	#select-sort {
+		display: inline-block;
+		border: solid 1px #444;
+		border-radius: 20px;
+		padding-left: 190px;
+		padding-right: 25px;
+	}
+	#select-sort {
+		padding-left: 80px;
+		border-radius: 2px;
+	}
+	#select-participants:before,
+	#select-sort:before {
+		position: absolute;
+		display: block;
+		top: 8px;
+		left: 15px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	#select-participants:before {
+		content: "No. of Participants";
+		color: #2d8cff;
+	}
+	#select-sort:before {
+		content: "Sort by";
+	}
+
+	.onsite-list-item {
+		border: solid 2px #ccc;
+		border-radius: 4px;
+		padding: 10px;
+		margin-bottom: 10px;
+		display: flex;
+	}
+	.onsite-list-item .photos {
+		margin-right: 10px;
+		display: flex;
+	}
+	.onsite-list-item .photos .thumbs {
+		position: relative;
+		width: 80px;
+		max-height: 205px;
+	}
+	.onsite-list-item .photos .thumbs img {
+		height: 65px;
+    margin-left: 5px;
+	}
+	.onsite-list-item .photos .thumbs img:nth-child(2) {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.onsite-list-item .photos .thumbs .p-more {
+		position: absolute;
+    bottom: 0px;
+    right: 10px;
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    color: #fff;
+    background: rgba(0,0,0,.6);
+    text-align: center;
+		padding-top: 15px;
+		cursor: pointer;
+	}
+	.onsite-list-item {
+		h5, p {
+			margin-top: 0;
+			margin-bottom: 5px;
+		}
+	}
+
+	.onsite-list-item .info {
+		display: flex;
+	}
+	.onsite-list-item .amenities {
+		flex-grow: 1;
+		display: table;
+	}
+	.onsite-list-item .amenities p  {
+		display: table-row;
+	}
+	.onsite-list-item .amenities span {
+		display: table-cell;
+		padding-right: 15px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	.onsite-list-item .amenities span svg {
+		margin-right: 10px;
+	}
+	.onsite-list-item .amenities .show-more {
+		cursor: pointer;
+		color: #2d8cff;
+		text-decoration: underline;
+	}
+	.onsite-list-item .pricing {
+		width: 150px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+    justify-content: center;
+	}
+	.onsite-list-item .pricing span {
+		color: #30a534;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 500;
+	}
+
+	.onsite-list-item .pricing button,
+	.onsite-detail .pricing button {
+		border-radius: 20px;
+    border: solid 1px #ccc;
+		padding: 5px 25px;
+		background-color: #1e5799;
+		color: #fff;
+	}
+	.onsite-list-item .star-rating svg {
+		color: #FF9800;
+	}
+	.onsite-list-item .star-rating:hover{
+		cursor: pointer;
+	}
+	.onsite-list-item .heart-relativeIcon{
+		position: absolute;
+		right: 35px;
+		color: #2d8cff;
+	}
+	.selected-relativeText{
+		position: absolute;
+		right: 130px;
+		color:green;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.onsite-list-item .heart-relativeIcon:hover{
+		cursor: pointer;
+	}
+	.onsite-detail .onsite-detail-header {
+		background-color: #aaa;
+		height: 300px;
+		margin-bottom: 20px;
+	}
+	.onsite-detail .onsite-detail-body {
+		display: flex;
+		align-items: flex-start;
+	}
+	.onsite-detail .content {
+		width: 100%;
+		padding-right: 0px;
+		overflow: hidden;
+	}
+	.onsite-detail .venue-order {
+		width: 250px;
+		border: solid 1px #444;
+		border-radius: 4px;
+		padding: 5px 8px;
+		position: fixed;
+		right: 10px;
+	}
+	.onsite-detail-bckBtn{
+		font-weight: bold;
+		color: #3b99cc;
+		font-size: 16px;
+		width: 60px;
+		margin-bottom: 30px;
+	}
+	.onsite-detail-bckBtn:hover{
+		cursor: pointer;
+		color: #1e5799;
+	}
+	.venue-order.fixed {
+		position: absolute;
+    right: 40px;
+    top: 20px;
+	}
+	.onsite-detail .venue-order select.form-control {
+		margin-bottom: 20px;
+    margin-top: 10px;
+    border-color: #444;
+		box-shadow: none;
+		text-align: center;
+	}
+	.venue-order button {
+		width: 100%;
+		border: solid 1px #444;
+		border-radius: 5px;
+		padding: 5px 15px;
+		margin: 15px 0 10px;
+		background-color: #fff;
+	}
+	.venue-order table {
+		font-size: 16px;
+	}
+	.venue-order tr td {
+		padding: 5px 0;
+	}
+	.venue-order tr:last-child {
+		border-top: solid 1px #444;
+		border-bottom: solid 1px #444;
+	}
+	.venue-order tr td:last-child {
+		text-align: right;
+	}
+
+	.onsite-detail .detail-title-container {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		@media (max-width: 480px) {
+			flex-wrap: wrap;
+		}
+	}
+	.onsite-detail .detail-title-first{
+		display: flex;
+		flex-direction: column;
+	}
+	.onsite-detail .detail-title-first-top{
+		display: flex;
+		align-items: center;
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+	.onsite-detail .detail-title-type{
+		background: #CFDDFF;
+		border-radius: 5px;
+		color: black;
+		padding: 3px 5px;
+	}
+	.onsite-detail .detail-title-text{
+		color: #3b99cc;
+		font-size: 18px;
+		margin-left: 10px;
+	}
+	.onsite-detail .detail-title-second{
+		display: flex;
+		@media (max-width: 480px) {
+			margin-top: 10px;
+		}
+	}
+	.onsite-detail .detail-title-second-reviews{
+		display: flex;
+		flex-direction: column;
+	}
+	.detail-title-second-rating{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		background: #eea890;
+		margin-left: 10px;
+		width: 40px;
+		height: 40px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.onsiteItem-header5{
+		color: black;
+		font-weight: bold;
+		font-size: 17px;
+		margin: 60px 10px 25px 0;
+	}
+	.onsiteItem-mainImg{
+		width: 100%;
+		max-width: 1100px;
+		height: 300px;
+		margin-top: 20px;
+	}
+	.onsiteItem-mainImg:hover{
+		cursor: pointer;
+	}
+	.onsiteItem-imgContainer{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.onsiteItem-imgThumbnail{
+			width: 100px;
+			height: 100px;
+			margin: 15px 15px 15px 0;
+	}
+	.onsiteItem-imgThumbnail:hover{
+		cursor: pointer;
+		width: 110px;
+		height: 110px;
+	}
+	.onsite-detail .onsite-about {
+		margin-bottom: 30px;
+	}
+	.onsite-detail .onsite-about button {
+		background: transparent;
+    border: none;
+    color: #2196F3;
+		text-decoration: underline;
+		font-style: italic;
+	}
+	.onsite-detail .onsite-amenities {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 30px;
+		// justify-content: space-between;
+	}
+	.onsite-amenities-additional{
+		margin-left: 5px;
+		border-radius: 5px;
+		color: white;
+		padding: 2px 5px;
+	}
+	.onsiteItem-houseRules{
+		display: flex;
+		flex-direction: column;
+		background: #f8f8f8;
+		padding: 15px;
+	}
+	.onsiteItem-rule{
+		color: grey;
+		margin-bottom: 35px;
+		display: flex;
+	}
+	.onsite-detail .onsite-amenities ul {
+		list-style: none;
+		padding: 0;
+		margin-bottom: 20px;
+		margin-right: 10px;
+		min-width: 30%;
+		color: grey;
+	}
+	.onsite-detail .onsite-amenities li {
+		margin-bottom: 5px;
+	}
+	.onsite-detail .onsite-amenities .title {
+		font-weight: bold;
+		font-size: 14px;
+		color: black;
+	}
+
+	.onsite-detail .choose-venue {
+		border: solid 2px #009688;
+		border-radius: 4px;
+		margin-bottom: 30px;
+	}
+
+	.onsite-detail .choose-venue-title,
+	.onsite-detail .choose-venue-body,
+	.onsite-detail .choose-venue-footer {
+		position: relative;
+		display: flex;
+		padding: 10px;
+	}
+	.onsite-detail .choose-venue-title {
+		background-color: #ccc;
+		align-items: center;
+	}
+	.onsite-detail .choose-venue-title h4 {
+		margin-right: 20px;
+	}
+	.onsite-detail .choose-venue-title small {
+		margin: 0 8px;
+	}
+	.onsite-detail .choose-venue-title b {
+		color: #FF9800;
+	}
+
+	.onsite-detail .choose-venue-body > div {
+		width: calc(50% - 10px);
+	}
+	.choose-venue-body section {
+		display: flex;
+	}
+	.choose-venue-body section ul {
+		list-style: none;
+		padding: 0;
+		margin: 10px 10px 0;
+	}
+	.onsite-detail .choose-venue-body > div:first-child {
+		height: 270px;
+		background-color: #ccc;
+		margin-right: 10px;
+		margin-left: 5px;
+	}
+	.onsite-detail .choose-venue .pricing {
+		flex: 1;
+    color: #30a534;
+    font-size: 24px;
+		font-weight: 500;
+		text-align: right;
+		padding: 20px 10px 10px;
+	}
+	.onsite-detail .choose-venue .pricing.float-pricing {
+		position: absolute;
+		top: 0px;
+		right: 10px;
+		text-align: center;
+	}
+	.onsite-detail .choose-venue .float-pricing button {
+		display: block;
+    margin-top: 15px;
+    font-size: 16px;
+	}
+	.onsite-detail .choose-venue-footer > div {
+		width: calc(33% - 10px);
+		margin: 0 5px;
+		height: 160px;
+		// background-image: url(https://picsum.photos/seed/foo/200);
+		background-color: #ccc;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	.choose-venue-feature {
+		display: flex;
+		align-items: center;
+		margin: 0 10px;
+	}
+	.choose-venue-feature svg {
+	font-size: 28px;
+	margin-right: 5px;
+	}
+	.choose-venue-feature small {
+		display: block;
+		font-size: 0.6em;
+	}
+
+	.venue-host {
+		display: flex;
+		margin: 25px 15px 30px;
+	}
+	.venue-host-title {
+		margin-left: 15px;
+	}
+	.venue-host-photo {
+		margin: 0 20px 0 0;
+    text-align: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+	.venue-host-photo img {
+		border-radius: 50%;
+		width: 64px;
+		height: 64px;
+	}
+
+	.venue-ratings {
+		display: flex;
+		margin: 15px 0 40px;
+	}
+	.venue-ratings-total {
+		text-align: center;
+	}
+	.venue-ratings-total span {
+		font-size: 48px;
+		font-weight: 700;
+	}
+	.venue-ratings-total svg {
+		font-size: 18px;
+	}
+	.venue-ratings-items {
+		flex: 1;
+    padding: 0 20px;
+	}
+	.venue-ratings-item {
+		display: flex;
+	}
+	.venue-ratings .rating-bar {
+		flex: 1;
+    background-color: #ccc;
+    border-radius: 5px;
+		overflow: hidden;
+		height: 20px;
+    margin-top: 4px;
+	}
+	.venue-ratings .rating-bar > div {
+		background-color: rgba(0,0,0,.2);
+    height: 100%;
+	}
+	.venue-ratings .rating-active {
+		margin: 0 10px;
+	}
+	.venue-ratings .percent {
+		font-weight: 500;
+		width: 50px;
+	}
+
+	.venue-review {
+		display: flex;
+		border-bottom: solid 1px #444;
+		padding: 10px 0;
+	}
+	.venue-review:first-child {
+		border-top: solid 1px #444;
+	}
+	.venue-review-title {
+		margin-left: 15px;
+	}
+	.venue-review-photo {
+		margin: 0 20px;
+    text-align: center;
+	}
+	.venue-review-photo img {
+		border-radius: 50%;
+		width: 64px;
+		height: 64px;
+	}
+	.venue-review .review-info {
+		padding-left: 20px;
+	}
+	.venue-review .review-tag,
+	.venue-review button {
+		border: solid 1px #444;
+		padding: 4px 10px;
+		background-color: #fff;
+		margin: 0 5px;
+	}
+	.venue-review .review-tag {
+		border-radius: 20px;
+		padding: 4px 15px;
+		display: inline-block;
+    margin-bottom: 5px;
+	}
+
+	.paginate-container {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+
+		> div {
+		padding-top:10px;
+		}
+		.paginate-ctn{
+			display: flex;
+		}
+		.round-effect{
+			color:#1e5799;
+			font-size:16px;
+			font-weight: 700;
+			text-align:center;
+			padding-left:10px;
+			padding-right:10px;
+			padding-top:9px;
+			height: 40px;
+			width: 40px;
+			margin:5px;
+			text-decoration: none;
+			cursor:pointer;
+		}
+		.round-effect:hover{
+			text-decoration: none;
+			background:#1e5799;
+			color:#FFF;
+		}
+		.round-effect:hover a {
+			text-decoration: none;
+			color:#FFF;
+		}
+		.active{
+			background: #d2d2d2;
+		}
+		a:link {
+			text-decoration: none;
+			color:#1e5799;
+		}
+	}
+
+}
+
+.onsite-venue.scrolled {
+	padding-top: 120px;
+}
+.onsite-venue.scrolled .filters-container {
+	position: sticky;
+	width: 100%;
+	margin-top:0;
+	background: #fff;
+	z-index: 10;
+	top: -20px;
+}

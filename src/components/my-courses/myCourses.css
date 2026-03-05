@@ -1,0 +1,82 @@
+.myCourses-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 600px;
+}
+.myCourses-container header {
+	color: #fff;
+	background: -webkit-linear-gradient(left, #1e5799 0%, #7db9e8 100%);
+	background: linear-gradient(to right, #1e5799 0%, #7db9e8 100%);
+}
+.myCourses-container header {
+	background-color: cadetblue;
+	width: 100%;
+	height: 100px;
+	padding: 10px 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.myCourses-title{
+  border-bottom: 1px solid #c4c8c4;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  width: 97%
+}
+.myCourses-filters{
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+}
+.myCourses-filters > div{
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+.myCourses-filters > div:first-child{
+  border: 1px solid #c4c8c4;
+}
+.myCourses-filters input{
+  background: #f3f3f3;
+  width: 200px;
+  border: none;
+}
+.myCourses-filters input:focus{
+  outline: none;
+}
+.myCourses-searchIcon{
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4183c4;
+  color: white;
+  height: 100%;
+  font-size: 19px;
+}
+.myCourses-searchIcon:hover{
+  cursor: pointer;
+}
+.myCourses-timeline{
+  font-size: 15px;
+  font-weight: bold;
+}
+.myCourses-timeline div:first-child{
+  margin-right: 20px;
+}
+.myCourses-timeline > div:hover{
+  cursor: pointer
+}
+.myCourses-emptyMsg{
+  color: red;
+  font-weight: bold;
+  font-size: 22px;
+}

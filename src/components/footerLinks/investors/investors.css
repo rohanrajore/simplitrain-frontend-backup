@@ -1,0 +1,223 @@
+.footerLink-investors{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.investors-mainImg{
+  height: 482px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://mgtblog.com/wp-content/uploads/2021/07/Custom-dimensions-1200x500-px-60-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+  max-width: 2000px;
+}
+.investors-mainImg > div:first-child{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #E4E4E4;
+  margin-bottom: 20px;
+}
+.investors-mainImg > div:nth-child(2){
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #E4E4E4;
+  margin-bottom: 50px;
+}
+.investors-mainImg > div:last-child{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  background: #2D9CDB;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 52px;
+}
+.investors-mainImg > div:last-child:hover{
+  cursor: pointer;
+}
+.investors-mainImg> div{
+  max-width: 700px;
+  text-align: center;
+}
+.investors-field{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 2000px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.investors-field > div:first-child{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #030B0F;
+  margin-bottom: 37px;
+}
+.investors-field > div:last-child{
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #4F4F4F;
+  max-width: 70%;
+}
+.investors-fieldSecond{
+  background: #EFF8FC;
+}
+.investors-boxes{
+  display: flex;
+  margin-bottom: 80px;
+}
+.investors-boxes > div{
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #EDEDED;
+}
+.investors-boxes > div:last-child{
+  border-right: none;
+}
+.investors-boxes > div > div:first-child{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #175F87;
+  margin-bottom: 20px;
+}
+.investors-boxes > div > div:last-child{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #175F87;
+}
+.investors-QA{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #EFF8FC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+  max-width: 2000px;
+  width: 100%;
+}
+.investors-QA > div:last-child{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1160px;
+}
+.investors-collapsible-content{
+  background: white;
+  padding: 15px;
+  padding-left: 0;
+}
+.investors-QA .Collapsible{
+  width: 555px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4F4F4F;
+  background: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  height: max-content;
+  padding: 13px 20px;
+}
+.investors-collapsibleOpen{
+  border-left: 8px solid #2D9CDB;
+}
+.investors-QA .is-open > div:last-child{
+  padding:15px;
+}
+.investors-QA .Collapsible .is-open{
+  background: white;
+}
+.investors-QA .Collapsible .is-open:hover{
+  cursor: pointer;
+}
+.investors-QA .Collapsible .is-closed:hover{
+  cursor: pointer;
+  width: 100% !important;
+  margin-left: 0;
+  margin-right: 0;
+}
+.investors-QAtitle{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #030B0F;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.investors-end{
+  display: flex;
+  flex-direction: column;
+}
+.investors-end > div:first-child{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #4F4F4F;
+  margin-bottom: 30px;
+}
+.investors-end > div:last-child{
+  background: #2D9CDB;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.investors-end > div:last-child:hover{
+  cursor: pointer;
+}
+
+@media (max-width:850px) {
+  .investors-boxes{
+    flex-direction: column;
+    width: 95%;
+  }
+  .investors-boxes > div{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-right: none;
+  }
+  .investors-boxes > div > div:first-child{
+    width: 100px;
+    text-align: left;
+  }
+  .investors-boxes > div > div:last-child{
+    text-align: right;
+    width: 250px;
+  }
+
+}

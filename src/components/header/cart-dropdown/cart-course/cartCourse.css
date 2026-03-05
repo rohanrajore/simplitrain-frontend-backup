@@ -1,0 +1,55 @@
+.cartCourse-dropdown{
+  display: flex;
+  align-items: center;
+  height: 130px;
+  width: 100%;
+  margin-top: 5px;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 10px;
+}
+.cartCourse-backdrop{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 100%;
+}
+.cartCourse-remove{
+  color: white;
+  background: #018cb0;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  display: flex;
+  position: absolute;
+  right: 15px;
+  bottom: -15px;
+  justify-content: center;
+  align-items: center;
+}
+.cartCourse-dropdown img{
+  width: 115px;
+  height: 100px;
+  margin-right: 5px;
+}
+.cartCourse-dropdown-content{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cartCourse-dropdown-title{
+  font-weight: bold;
+}
+.cartCourse-dropdown-sub{
+  font-size: 12px;
+}
+.cartCourse-dropdown-price{
+  color: red;
+  font-weight: bold;
+}
+.cartCourse-dropdown-date{
+  color:#429ece;
+  font-size: 12px;
+}

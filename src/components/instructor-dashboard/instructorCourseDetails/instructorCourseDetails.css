@@ -1,0 +1,211 @@
+.instCourseDetails-desc{
+  color: #f01212;
+  width: 98%;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+}
+.instCourseDetails-nav{
+  display: flex;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color:#4F4F4F;
+  font-weight: bold;
+  padding-bottom: 0;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.instCourseDetails-nav > div{
+  margin-right: 60px;
+  padding: 0 10px 10px 0;
+}
+.instCourseDetails-nav > div:hover{
+  cursor: pointer;
+  color: #4183c4;
+}
+.instCourseDetails-actTab{
+  color: #041016;
+  border-bottom: 2px solid #2D9CDB;
+}
+.instCourseDetails-content{
+  background: #f5f5f5;
+  width: 98%;
+  padding: 30px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+.instCourseDetails-contentWraper{
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.instCourseDetails-contentWraper > div:first-child{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #041016;
+  padding: 0 10px;
+  border-left: 2px solid #2D9CDB;
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+.instCourseDetails-contentWraper > div:last-child{
+  border-top: 1px solid #EDEDED;
+  margin: 5px 10px 0 10px;
+}
+.instCourseDetails-img img{
+  margin-top: 20px;
+  height: 170px;
+  width: 270px;
+}
+.instCourseDetails-img iframe{
+  margin-top: 20px;
+  height: 170px;
+  width: 270px;
+}
+.instCourseDetails-creds{
+  display: flex;
+}
+.instCourseDetails-creds > div:last-child{
+  padding-left: 20px;
+}
+.instCourseDetails-credsPart{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  color: black;
+}
+.instCourseDetails-creds > div:first-child{
+  border-right: 1px solid #EDEDED;
+  padding-right: 20px;
+}
+.instCourseDetails-credsItem{
+  display: flex;
+  margin-bottom: 20px;
+}
+.instCourseDetails-credsItem > div:first-child{
+  width: 170px !important;
+  color: #979797;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+}
+.instCourseDetails-credsItem > div:last-child{
+  width: 100%;
+  padding-left: 3px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #041016;
+}
+.instCourseDetails-credsItem span{
+  color: #979797;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.instCourseDetails-imageVideo{
+  display: flex;
+}
+.instCourseDetails-imageVideo > div:first-child{
+  margin-right: 10px;
+}
+.instCourseDetails-imageVideo > div:last-child{
+  margin-left: 10px;
+}
+.instCourseDetails-listWrap{
+  padding-top: 20px;
+}
+.instCourseDetails-list{
+  margin-bottom: 10px;
+}
+.instCourseDetails-list > ul{
+  padding-left: 0;
+  color: #041016;
+  list-style: none;
+}
+.instCourseDetails-list > ul li::before {
+  content: "\2022";
+  color: #EDEDED;
+  width: 6px;
+  height: 6px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 0.7em;
+}
+.instCourseDetails-list > ul > li{
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+.instCourseDetails-list > ul > li:nth-child(2){
+  margin-top: 12px !important;
+  display: flex;
+}
+/* This is only for target audience */
+.instCourseDetails-list > div:last-child{
+  margin-top: 12px;
+  display: flex;
+}
+.instCourseDetails-list > div:last-child > p{
+  margin-right: 5px;
+}
+.instCourseDetails-list span{
+  font-weight: bold;
+  font-size: 14px;
+}
+/* Margin left 0 !important, because only here it has grey rectangle box that goes litle more on left side*/
+.instCourseDetails-curriculumWrap{
+  padding-top: 20px;
+  height: 250px;
+  margin-left: 0 !important;
+}
+.instCourseDetails-curriculumWrap > div:first-child{
+  overflow-y: scroll;
+  height: 100%;
+}
+.instCourseDetails-curriculumWrap > div:first-child > .instCourseDetails-curriculumItem:last-child{
+  margin-bottom: 0;
+}
+.instCourseDetails-curriculumItem{
+  border: 1px solid #EDEDED;
+  border-radius: 2px;
+  padding: 10px 0 10px 10px;
+  margin-bottom: 15px;
+}
+.instCourseDetails-curriculumPart{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 12px;
+}
+.instCourseDetails-curriculumPart > div:first-child{
+  font-weight: bold;
+  color: #041016;
+  margin-bottom: 12px;
+}
+.instCourseDetails-curriculumTopic{
+  display: flex;
+  flex-wrap: wrap;
+}
+.instCourseDetails-curriculumTopic > p{
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.instCourseDetails-msgs{
+  height: auto;
+  overflow-y: hidden;
+}
+.instCourseDetails-gif{
+  position: absolute;
+  top: 30%;
+  left: 48%;
+}

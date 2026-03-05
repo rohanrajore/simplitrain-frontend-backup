@@ -1,0 +1,117 @@
+.footerLink-leadership{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerLink-leadership .leadership-mainImg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/free-photo/group-businesspeople-with-thumbs-up-gesture-modern-office-multi-ethnic-people-working-together-teamwork-concept_1139-964.jpg?size=626&ext=jpg');
+  height: 582px;
+  width: 100%;
+  max-width: 2000px;
+  background-position:  top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 80px;
+}
+.footerLink-leadership .leadership-mainText{
+  font-size: 24px;
+  line-height: 36px;
+  text-align: left;
+  letter-spacing: 0.02em;
+  max-width: 1102px;
+  margin-bottom: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.footerLink-leadership .leadership-cardsTitle{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: 0.02em;
+  color: #030B0F;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: auto;
+}
+.footerLink-leadership .row{
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ margin:0;
+}
+.footerLink-leadership .leadership-card{
+  background: #08202D;
+  border-radius: 4px;
+  min-height: 272px;
+  padding: 30px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footerLink-leadership .leadership-card .leadership-cardInfo{
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  align-items: center;
+}
+.footerLink-leadership .leadership-card .leadership-cardInfo img{
+  width: 156px;
+  height: 156px;
+  border-radius: 100%;
+}
+.footerLink-leadership .leadership-card .leadership-cardInfo div:nth-child(2){
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  width: max-content;
+}
+.footerLink-leadership .leadership-card .leadership-cardInfo div:last-child{
+  font-style: italic;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #C1C1C1
+}
+.footerLink-leadership .leadership-card .leadership-cardText{
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+
+@media (max-width: 930px) {
+  .footerLink-leadership .leadership-cardsTitle{
+    text-align: center;
+  }
+  .footerLink-leadership .row{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+}
+
+@media (max-width: 767px) {
+  .footerLink-leadership .row{
+    padding:20px;
+  }
+  .leadership-card{
+    flex-direction: column;
+    width: 100% !important;
+  }
+}
+

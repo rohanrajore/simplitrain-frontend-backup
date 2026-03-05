@@ -1,0 +1,57 @@
+.profileIcons-container{
+  display: flex;
+  align-items: center;
+  align-items: center;
+  height: 60px;
+  min-width: 100px;
+}
+.bellIcon{
+  color:#15aabf;
+}
+.heartIcon{
+  color: #15aabf;
+}
+.heartIcon:hover{
+  color: #1e70bf
+}
+.heartIconDiv:hover{
+  cursor: pointer;
+}
+.heartIconDiv:hover .badge-notification{
+  background: #018cb0 !important;
+  z-index:1000 !important;
+}
+.shoppingCart{
+  color: #15aabf;
+  margin-right: 5px;
+  width: 35px;
+}
+.cartIcon:hover .shoppingCart{
+  color: #1e70bf;
+}
+.cartIcon:hover{
+  cursor: pointer;
+}
+.cartIcon:hover .badge-notification{
+  background: #018cb0 !important;
+  z-index:1000 !important;
+}
+
+.icon-notification{
+  width: 35px;
+  margin-right: 5px;
+}
+.img-profile{
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+.img-profile:hover{
+  cursor:pointer;
+}
+.profile-img-accountBox{
+  display: flex;
+}
+.profile-img-accountBox > img{
+  margin-right: 10px;
+}

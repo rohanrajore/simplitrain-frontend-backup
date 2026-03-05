@@ -1,0 +1,23 @@
+.moreCategories-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  min-width: 200px;
+  min-height: 100px;
+  position: absolute;
+  right: 50px;
+  top: 75px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  border: 0;
+  padding-left: 20px;
+  transition: all .4s linear;
+  margin-top: 5px;
+  color: #627373;
+  z-index: 10;
+}
+.moreCategories-container > .trending-category{
+  justify-content: flex-start;
+}

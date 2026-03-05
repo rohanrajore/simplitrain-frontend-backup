@@ -1,0 +1,95 @@
+.trending-container{
+  width: 95%;
+  min-height: 500px; /* WARNING: Was 1000, return it to 1000 when we unhide trending courses */
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  color: #627373;
+}
+.trending-title{
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+.trending-first{
+  border-bottom: 1px solid grey;
+  width: 97%;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.trending-second{
+  margin-top: 35px;
+}
+.trending-category-container{
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  max-height: 40px;
+  overflow: hidden;
+}
+.trending-category{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+  margin-top: 10px;
+  font-weight: bold;
+  height: 30px;
+  min-width: 100px;
+}
+.trending-category:hover{
+  cursor: pointer;
+}
+.category-moreIcon{
+  font-size: 22px;
+  margin-bottom: 5px;
+  margin-right: 0;
+  width: 20px !important;
+}
+.category-moreIcon:hover{
+  cursor: pointer;
+}
+
+.loadingImgCenter{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+.trending-button{
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  position: absolute;
+  top:55%;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.trending-noCourses{
+  font-size: 23px;
+  color: red;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+}
+.tbLeft{left:-10px;}
+.tbRight{right: -10px;}
+.trending-button:hover{
+  cursor: pointer;
+  color: black;
+  font-size: 24px;
+}
+.activeCategory{
+  border-bottom: 5px solid #4183c4;
+}

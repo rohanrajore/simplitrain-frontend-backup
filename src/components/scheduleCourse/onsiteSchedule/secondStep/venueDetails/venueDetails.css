@@ -1,0 +1,299 @@
+.secondStep-venueDetails{
+  border: 1px solid green;
+  width: 100%;
+  max-width: 1015px;
+  position: relative;
+}
+.secondStep-venueDetails > div{
+  width: 100%;
+  max-width: 670px;
+}
+.secondStep-venueDetails > .venueDetails-about{
+  border-bottom: 1px solid #EDEDED;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  max-width: 670px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.secondStep-venueDetails .venueDetails-title{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #041016;
+  padding-left: 10px;
+  border-left: 2px solid #2D9CDB;
+  margin-bottom: 20px;
+}
+.secondStep-venueDetails .venueDetails-aboutText{
+  font-size: 16px;
+  line-height: 150%;
+  color: #4F4F4F;
+  position: relative;
+}
+.secondStep-venueDetails .venueDetails-aboutText > span:last-child{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2D9CDB;
+  width: 65px;
+  margin-right: 0;
+  margin-left: 10px;
+}
+.secondStep-venueDetails .venueDetails-aboutText > span:last-child:hover{
+  cursor: pointer;
+}
+.secondStep-venueDetails .venueDetails-host{
+  display: flex;
+  flex-direction: column;
+  background: #F5F5F5;
+  min-height: 264px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.secondStep-venueDetails .venueDetails-host .venueDetails-hostImage{
+  margin-top: 30px;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.secondStep-venueDetails .venueDetails-host .venueDetails-hostImage  img{
+  width: 95px;
+  height: 95px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+.secondStep-venueDetails .venueDetails-host .venueDetails-hostImage > div:first-child{
+  font-size: 14px;
+  line-height: 17px;
+  color: #4F4F4F;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secondStep-venueDetails .venueDetails-properties{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.secondStep-venueDetails .venueDetails-properties .venueDetails-property{
+  width: 310px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.secondStep-venueDetails .venueDetails-properties .venueDetails-property > div:first-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 84px;
+  border-radius: 100%;
+  background: #EAF5FB;
+}
+.secondStep-venueDetails .venueDetails-properties .venueDetails-property svg{
+  color: #2D9CDB;
+  width: 50px;
+  height: 40px;
+}
+.secondStep-venueDetails .venueDetails-properties .venueDetails-property > div:nth-child(2){
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #303030;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.secondStep-venueDetails .venueDetails-properties .venueDetails-property > div:last-child{
+  font-size: 16px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #4F4F4F;
+}
+.secondStep-venueDetails .venueDetails-houseRules{
+  background: #F2F2F2;
+  border-radius: 4px;
+  padding: 40px 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.secondStep-venueDetails .venueDetails-houseRules >div{
+  display: flex;
+  margin-bottom: 40px;
+}
+.secondStep-venueDetails .venueDetails-houseRules >div >div:first-child{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #041016;
+  width: 170px;
+  min-width: 170px;
+  height: max-content;
+  margin-right: 10px;
+}
+.secondStep-venueDetails .venueDetails-houseRules >div >div:last-child{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #303030;
+}
+.secondStep-venueDetails .venueDetails-houseRules >div ol{
+  padding-left: 15px;
+}
+.secondStep-venueDetails .venueDetails-houseRules >div li{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #303030;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.secondStep-venueDetails .venueDetails-houseRules span{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2D9CDB;
+}
+.secondStep-venueDetails .venueDetails-houseRules span:hover{
+  cursor: pointer;
+}
+.secondStep-venueDetails .venueDetails-feedbackReview{
+  margin-bottom: 100px;
+}
+.secondStep-venueDetails .venueDetails-feedbackReview .review-img{
+  margin-right: 20px;
+}
+.secondStep-venueDetails .venueDetails-feedbackReview .review-img img{
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+}
+/*Changing Css for feedback component from course details*/
+.secondStep-venueDetails #courseinfo-feedback{
+  width: 100%;
+}
+.secondStep-venueDetails .feedback-content{
+  width: 100% !important;
+  margin-bottom: 50px;
+  min-height: max-content;
+  justify-content: flex-start;
+}
+.secondStep-venueDetails .feedback-content .feedback-value{
+  margin-right: 40px;
+  width: max-content !important;
+  justify-content: flex-start;
+}
+.secondStep-venueDetails .feedback-content .feedback-value >div:first-child{
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 65px;
+  color: #000000;
+}
+.secondStep-venueDetails .feedback-content .feedback-value >div:nth-child(2){
+  color: #FFB30F;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.secondStep-venueDetails .feedback-content  svg{
+  width: 16px;
+  height: 16px;
+  color: #FFB30F !important;
+}
+.secondStep-venueDetails .feedback-content .feedback-value >div:nth-child(2) svg{
+  width: 20px;
+  height: 20px;
+}
+.secondStep-venueDetails .feedback-content .feedback-value >div:last-child{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #4F4F4F !important;
+}
+.secondStep-venueDetails .feedback-content .feedback-percent-container{
+  width: max-content;
+}
+.secondStep-venueDetails .feedback-content .feedback-bar{
+  width: 335px;
+  height: 8px;
+  margin-bottom: 0;
+  margin-right: 45px;
+}
+.secondStep-venueDetails .feedback-content .feedback-bar-progress{
+  background: #2DB417;
+}
+.secondStep-venueDetails .feedback-content .feedback-percent-container > div:last-child .feedback-bar-progress{
+  background: #EB5757;
+}
+.secondStep-venueDetails .feedback-content .feedback-percent-container > div:nth-last-child(2) .feedback-bar-progress{
+  background: #FFD987;
+}
+.secondStep-venueDetails .feedback-content .feedback-percent{
+ align-items: center;
+ margin-bottom: 5px;
+}
+.secondStep-venueDetails .feedback-content .feedback-percent > div:last-child{
+  display: flex;
+  justify-content: center;
+}
+.secondStep-venueDetails .feedback-content .feedback-percent > div:last-child > svg:last-child{
+  margin-right: 10px;
+}
+/*Changing css for Review component from course details*/
+.secondStep-venueDetails .review-container{
+  width: 100%;
+  border-bottom: 1px solid #EDEDED;
+}
+.secondStep-venueDetails .review-container .review-content>div:first-child{
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  color: #4F4F4F !important;
+}
+.secondStep-venueDetails .review-container .review-content>div:nth-child(2){
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4F4F4F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondStep-venueDetails .review-container .review-content>div:nth-child(2) svg{
+  width: 16px;
+  height: 16px;
+  color: #FFB30F;
+}
+.secondStep-venueDetails .review-container .review-content>div:nth-child(2) svg:last-child{
+  margin-right: 10px;
+}
+.secondStep-venueDetails .review-container .review-description{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #041016;
+}
+.secondStep-venueDetails .review-container .review-report{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+}
+.secondStep-venueDetails .review-container .review-report svg{
+  width: 22px;
+  height: 22px;
+  color: #6F6F6F !important;
+}

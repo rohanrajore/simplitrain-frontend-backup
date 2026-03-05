@@ -1,0 +1,149 @@
+import styled from 'styled-components';
+
+export const InstructorBatchDetails = styled.div`
+.instructorBatch-feedback-content{
+  margin-bottom: 0 !important
+}
+.instructorBatch-feedback-content > div:first-child{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.instructorBatch-feedback-day{
+  width: 96px;
+  height: 29px;
+  background: white;
+  color: #2D9CDB;
+  border: 1px solid #2D9CDB;
+  border-radius: 4px;
+  padding: 6px 11px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  margin-right: 12px;
+}
+.instructorBatch-feedback-content  .activeDay{
+  background: #2D9CDB;
+  color: white;
+}
+.instructorBatch-feedback-day:hover{
+  cursor: pointer;
+}
+/* This is default className for accordion component Collapsible... We are overwriting it */
+.Collapsible{
+  max-width: 994px;
+  margin-bottom: 15px;
+}
+.Collapsible__trigger{
+  background: white;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+  align-items: center;
+  padding: 14px 15px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #4F4F4F;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.Collapsible__trigger::after {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f078';
+    position: absolute;
+    right: 10px;
+    display: block;
+    transition: transform 300ms;
+    width: 20px;
+    height: 20px;
+  }
+ .is-open::after {
+      transform: rotateZ(180deg);
+  }
+ .is-disabled {
+    opacity: 0.5;
+    background-color: grey;
+  }
+ .is-open{
+  background: #F0F5FF;
+}
+.Collapsible__trigger:hover{
+  cursor: pointer;
+}
+.instructorBatch-collapsible-content{
+  background: white;
+  padding-left: 15px;
+  padding-right: 114px;
+  padding-bottom: 20px;
+  @media (min-width:320px) and (max-width: 768px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.instructorBatch-collapsible-item{
+  border-bottom: 1px solid #E0E0E0;
+  color: #4F4F4F;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 5px;
+  height: 40px;
+}
+.instructorBatch-collapsible-item > div:last-child{
+  width: 57px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color:white;
+}
+.instructorBatch-collapsible-item > div:last-child[rating=low]{
+  background: #EB5757;
+}
+.instructorBatch-collapsible-item > div:last-child[rating=middle]{
+  background: #F2C94C;
+}
+.instructorBatch-collapsible-item > div:last-child[rating=high]{
+  background: #2DB417;
+}
+.instructorBatch-collapsible-comment{
+  margin-top: 25px;
+}
+.instructorBatch-collapsible-comment > div:first-child{
+  color: #041016;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+.instructorBatch-collapsible-comment > div:last-child{
+  font-size: 14px;
+  line-height: 17px;
+  color: #4F4F4F;
+}
+
+.instructorBatch-details{
+  .tabTitle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:15px;
+    border-top: 1px solid #EDEDED;
+    padding: 15px 0px 0px 0px;
+  }
+}
+.instructorBatch-details-close{
+  color: #EB5757;
+  font-size: 17px;
+}
+.instructorBatch-details-head{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+`
+

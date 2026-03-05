@@ -1,0 +1,115 @@
+.invoice-container{
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  width: 80%;
+  height: 80vh;
+  position: absolute;
+  background: white;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 150px;
+  z-index: 10;
+  padding: 30px;
+  color: #627373;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+.invoice-header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid grey;
+  width: 100%;
+}
+.invoice-ID{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.invoice-ID-title{
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 10px;
+  color: black;
+}
+.invoice-ID-text{
+  font-size: 15px;
+  font-weight: bold;
+}
+.logoInvoice{
+  height: 80px;
+  width: 220px;
+}
+.invoice-buyer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 100%;
+}
+.invoiceTableHead{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  width: 90%;
+}
+.invoiceTableBody{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: bold;
+  width: 90%;
+  margin-top: 15px;
+}
+.invoiceCell1{
+  min-width: 300px;
+}
+.invoiceCell2{
+  min-width: 150px;
+}
+.invoice-totalContainer{
+  border-top: 3px solid grey;
+  width: 90%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.invoice-total{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.invoice-totalField{
+  margin: 5px 0;
+  font-weight: bold;
+  font-size: 17px;
+}
+.invoiceTotalValues{
+  margin-left: 50px;
+}
+.invoice-policy{
+  margin-top: 25px;
+  padding-top: 10px;
+  border-top: 3px solid grey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+@media (max-width:1150px) {
+  .invoice-container{width: 95%}
+}
+@media (max-width:970px) {
+  .invoiceTableHead{width: 100%}
+  .invoiceTableBody{width: 100%}
+  .invoiceCell1{min-width: 200px}
+  .invoiceCell2{min-width: 100px}
+  .invoice-totalContainer{width: 100%}
+  .invoiceTotalValues{margin-left: 30px}
+}

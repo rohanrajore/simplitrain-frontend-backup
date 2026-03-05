@@ -1,0 +1,44 @@
+.locDetails-labelContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.locDetails-img-container{
+  display: flex;
+}
+.locDetails-img{
+  height: 150px;
+  width: 150px;
+  margin-right: 35px;
+}
+.locDetails-content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.upload-btn{
+  background: #257ab1;
+  border: none;
+  border-radius: 5px;
+  color: white !important;
+}
+.upload-btn:hover{
+  color: white !important;
+  background: #257ab1 !important;
+}
+.termsAndConditions{
+  height: 200px;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+@media (max-width:761px) {
+    .locDetails-img-container{
+      flex-direction: column;
+    }
+}
+@media (max-width:670px) {
+    .locDetails-labelContainer{
+      flex-direction: column;
+    }
+}

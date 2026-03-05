@@ -1,0 +1,213 @@
+.stepper-stepContainer{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.stepper-stepTitle{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #041016;
+  border-bottom: 1px solid #E2E2E2;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+.onsite-firstStep{
+  border: 1px solid #E2E2E2;
+  padding: 30px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.onsite-firstStep > .flex{
+  display: flex;
+  justify-content: space-between;
+}
+.onsite-firstStep  .datePick-container{
+  display: flex;
+  flex-direction: column;
+}
+.onsite-firstStep  .datePick-container > div{
+  display: flex;
+  margin-bottom: 20px;
+}
+.onsite-firstStep  .datePick-container > div:nth-child(2){
+  border-bottom: 1px solid #EDEDED;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.onsite-firstStep  .datePick-container  .datePick-weekends{
+  display: flex;
+}
+.onsite-firstStep  .datePick-container  .datePick-weekends> input{
+  padding: 0;
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+.onsite-firstStep  .datePick-container  .datePick-weekends> input:hover{
+  cursor: pointer;
+}
+.onsite-firstStep  .datePick-container  .datePick-weekends> label{
+  font-size: 14px;
+  line-height: 17px;
+  color: #4F4F4F;
+  font-weight: normal;
+}
+.onsite-firstStep  .datePick-container  .datePick-weekends> label:hover{
+  cursor: pointer;
+}
+.onsite-firstStep  .datePick-container  .datePick-weekends> label:nth-child(2){
+  margin-right: 30px;
+}
+.onsite-firstStep  .datePick-container .datePick-customize{
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #2D9CDB;
+  width: 80px;
+  margin-right: 0;
+  margin-left: auto;
+}
+.onsite-firstStep  .datePick-container .datePick-customize:hover{
+  cursor: pointer;
+}
+.onsite-firstStep  .datePick-container .datePick-customize[enableCustomize=true]{
+  color: rgba(45, 156, 219, 0.5);
+}
+.onsite-firstStep  .datePick-container .datePick-customize[enableCustomize=true]:hover{
+  cursor: default;
+}
+.onsite-firstStep .datePick-item{
+  display: flex;
+  flex-direction: column;
+  margin-right: 19px;
+ }
+ .onsite-firstStep .datePick-item:last-child{
+   margin-right: 0;
+ }
+.onsite-firstStep .datePick-item > label{
+  font-size: 14px;
+  line-height: 17px;
+  color: #041016;
+  margin-bottom: 8px;
+  font-weight: normal;
+  margin-right: auto;
+}
+.onsite-firstStep .datePick-item > label:hover{
+  cursor: pointer;
+}
+.onsite-firstStep .datePick-item  input{
+  width: 258px;
+  height: 40px;
+  border: 1px solid #E2E2E2;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4F4F4F;
+}
+.onsite-firstStep .datePick-item  input:hover{
+  cursor: pointer;
+}
+.onsite-firstStep .datePick-item  input:focus{
+  outline: 1px solid #2D9CDB
+}
+.stepper-stepContainer  .datePick-calendar{
+  width: 230px;
+  height: 225px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4D4D4D;
+  font-family: Roboto;
+  background: #FFFFFF;
+  border: 0.754098px solid #EDEDED;
+  box-sizing: border-box;
+  border-radius: 3.01639px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+.disable-calendar{
+  pointer-events:none !important;
+}
+.stepper-stepContainer  .datePick-calendar button{
+  max-width: 32.563px !important;
+  height: 25px;
+  padding: 0 4.5px !important;
+  margin-bottom: 0;
+}
+.stepper-stepContainer  .datePick-calendar .react-calendar__tile--active{
+  background: #2D9CDB;
+  border-radius: 25px !important;
+  color: white;
+}
+.stepper-stepContainer  .datePick-calendar .react-calendar__tile--rangeStart{
+  background: #2D9CDB;
+  color: white;
+  border-radius: 25px !important;
+}
+.stepper-stepContainer  .datePick-calendar .react-calendar__tile--rangeEnd{
+  background: #2D9CDB;
+  color: white;
+  border-radius: 25px !important;
+}
+.stepper-stepContainer  .datePick-calendarTile:active{
+  width: 14px;
+  height: 14px;
+  border: 1px solid red !important;
+}
+.stepper-stepContainer .notActiveTile{
+  background: none !important;
+  color: initial !important;
+}
+.stepper-stepContainer .weekendColor{
+  color: red !important;
+}
+.onsite-firstStep-btn{
+  background: #2D9CDB;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  width: 210px;
+  height: 45px;
+  margin-right: 0;
+  margin-left: auto;
+}
+.onsite-firstStep-btn:hover{
+  cursor: pointer;
+}
+.nextBtn-disabled{
+  background: rgba(45, 156, 219, 0.5) !important;
+}
+.nextBtn-disabled:hover{
+  cursor: default !important;
+}
+.onsite-firstStep  .customizeTable{
+  border-top: 1px solid #E2E2E2;
+  margin-top: 30px;
+  padding-top: 30px;
+  position: relative;
+}
+.onsite-firstStep  .customizeTable > div:first-child{
+  width: 90%;
+  z-index: 0;
+}
+.onsite-firstStep .customizeTable .closeCustomize{
+  color: #EB5757;
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+.onsite-firstStep .customizeTable .closeCustomize > svg{
+  width: 24px;
+  height: 24px;
+}
+.onsite-firstStep .customizeTable .closeCustomize > svg:hover{
+  cursor: pointer;
+}

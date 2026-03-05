@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+h1, h2, h3, h4, h5, h5 {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #1e5799;
+}
+.p {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.f-column {
+  flex-direction: column;
+}
+.text-right {
+  text-align: right;
+}
+.p-0 {
+  padding: 0 !important;
+}
+.m-0 {
+  margin: 0 !important;
+}
+
+.section-location {
+  display: flex;
+  padding-right: 30px;
+}
+.section-location > div {
+  width: calc(50% - 60px);
+  padding: 0 60px 0 0;
+}
+.section-location > div:last-child {
+  padding-top: 22px;
+}
+.section-location .map {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;;
+  background-color: #ddd;
+  margin-bottom: 10px;
+}
+.section-detail > div {
+  padding-right: 30px;
+  margin-bottom: 30px;
+}
+.section-detail-header {
+  display: flex;
+}
+.section-detail-header > div {
+  width: calc(50% - 30px);
+  padding: 0 30px 0 0;
+}
+.section-detail-header > div:first-child {
+  padding-right: 50px;
+}
+.section-detail-header > div:last-child {
+  padding-left: 50px;
+}
+.section-detail-header select.form-control {
+  display: inline-block;
+  width: calc(50% - 10px);
+  margin: 30px 10px 15px 0;
+}
+.section-detail .input-container {
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+}
+.section-detail .input-container .input-label {
+  position: relative;
+}
+.section-detail .label-sqft {
+  width: 60px;
+  margin-left: 10px;
+  padding-top: 12px;
+}
+.section-pricing {
+  padding-right: 30px;
+}
+.section-pricing h4 {
+  margin-top: 30px;
+}
+.section-pricing .venue-pricing input,
+.section-pricing .venue-pricing select {
+  max-width: 200px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.section-pricing .coupon-codes {
+  display: flex;
+}
+.section-pricing .coupon-codes input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.section-pricing .btn-add {
+  border: none;
+  border-radius: 50%;
+  background-color: #3F51B5;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.file-delete,
+.section-pricing .btn-remove {
+  border: none;
+  border-radius: 50%;
+  background-color: #F44336;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 20px;
+  cursor: pointer;
+  outline: none;
+  padding: 2px 5px;
+}
+.section-amenities {
+  display: flex;
+}
+.section-amenities h4 {
+  margin: 5px 0 10px;
+}
+.section-amenities > div {
+  width: 50%;
+  padding-right: 30px;
+}
+.section-amenities .input-checkbox {
+  margin-bottom: 16px;
+}
+.section-amenities .custom-amenity {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: solid 1px #aaa;
+}
+.section-scheduling .schedule-row {
+  margin: 20px 0;
+}
+.section-scheduling .schedule-row .input-checkbox {
+  display: inline-block;
+  min-width: 130px;
+  margin-right: 50px;
+}
+.section-scheduling .schedule-row .input-checkbox .checkbox-label {
+  padding-left: 0;
+  display: inline-block;
+  width: 100%;
+}
+.section-scheduling .schedule-row .input-checkbox .checkbox-label::before {
+  left: calc(100% - 18px);
+}
+.section-scheduling .schedule-row .input-checkbox .checkbox-label::after {
+  left: calc(100% - 16px);
+}
+.section-scheduling .combo-hour {
+  margin-right: 10px;
+  padding: 3px 15px;
+}
+.section-photos {
+  padding-right: 30px;
+}
+
+.file-list {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.file-list li {
+  width: calc(25% - 18px);
+  margin-bottom: 15px;
+  margin-right: 15px;
+  border: solid 1px #888;
+  border-radius: 4px;
+  position: relative;
+}
+.file-name {
+  font-weight: 500;
+  margin: 5px 10px;
+  font-size: 13px;
+  text-align: center;
+  color: #222;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.file-progress {
+  position: relative;
+  background-color: #aaa;
+  color: #222;
+  padding: 4px 8px;
+  font-size: 12px;
+  text-align: center;
+}
+.file-progress span {
+  display: block;
+  z-index: 10;
+  position: relative;
+  font-weight: 500;
+}
+.file-progress > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: slateblue;
+  z-index: 5;
+}
+.file-preview {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section-photos .file-delete {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+}
+
+.quill {
+  margin-right: 30px;
+}
+.quill .ql-container {
+  min-height: 200px;
+}
+.submit-div {
+  text-align: right;
+  padding-right: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+}

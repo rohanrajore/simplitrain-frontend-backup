@@ -1,0 +1,16 @@
+
+.ph-btn:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.invoiceBackDrop{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: grey;
+  opacity: 0.6;
+  z-index: 9;
+}

@@ -1,0 +1,77 @@
+.studentsReview-container{
+  width: 95%;
+  min-height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.studentsReview-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.studentsReview-item{
+ min-height: 250px;
+ padding: 20px;
+ display: flex;
+}
+.studentsReview-item > div:first-child{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.studentsReview-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.studentsReview-author{
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.studentsReview-designation{
+  font-size: 14px;
+  color: #627373;
+  font-style: italic;
+}
+.studentsReview-text{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.studentsReview-text > div{
+  margin: 20px 0;
+}
+.studentsReview-iconLeft{
+  margin-right: 15px;
+  color: #c7c7c7;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+.studentsReview-iconRight{
+  margin-left: 15px;
+  color: #c7c7c7;
+  margin-top: auto;
+  margin-bottom: 0;
+}

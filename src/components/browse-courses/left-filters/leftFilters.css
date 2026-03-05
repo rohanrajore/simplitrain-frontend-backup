@@ -1,0 +1,32 @@
+.left-filters{
+  width: 230px;
+  color: #818487;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.left-filters-acc{
+  background: red;
+  color: green;
+}
+
+.typo-start-date{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.typo-start-date input{
+  width: 10%;
+}
+.typo-start-date label{
+  width: 95%;
+  height: 100%;
+  margin-bottom: 0;
+}
+@media (max-width: 1200px) {
+  .left-filters {width: 200px;}
+}
+@media (max-width: 1000px) {
+  .left-filters {display: none;}
+}

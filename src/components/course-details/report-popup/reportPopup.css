@@ -1,0 +1,43 @@
+.report-popup-container{
+  width: 500px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: -100%;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  color: #627373;
+  padding: 15px;
+  z-index: 1;
+}
+.report-popup-title{
+  font-size: 15px;
+  font-weight: bold;
+}
+.report-popup-subtitle{
+  font-size: 12px;
+}
+.report-popup-input{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.report-popup-input textarea{
+  resize: none;
+}
+.report-popup-input textarea,select:focus{
+  outline-color: rgb(1, 140, 176);
+}
+.report-popup-input label{
+  font-size: 14px;
+  font-weight: bold;
+}
+.report-popup-btns{
+  display: flex;
+  justify-content: flex-end;
+}
+.report-popup-btn{
+  background: white !important;
+  color: rgb(1, 140, 176) !important;
+}

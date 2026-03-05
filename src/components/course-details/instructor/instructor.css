@@ -1,0 +1,147 @@
+.instructor-container{
+  width: 40%;
+  margin-left: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px;
+  color: #627373;
+}
+.instructor-content{
+  display: flex;
+  width: 100%;
+  border: 2px solid #f1f5ff;
+}
+.instructor-details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.instructor-icons{
+  color:#4a8ab0;
+  width: 26px !important;
+  font-size:20px;
+}
+.instructor-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+.instructor-values{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.instructor-val{
+  width: 100%;
+  margin: 7px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.instructor-msg{
+  width: 90%;
+  background: #4a8ab0;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 35px;
+  margin: 15px 0;
+}
+.instructor-msg:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.instructor-socialNetwork{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.instructor-socialNetwork > a{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.instructor-socialNetwork > svg{
+  margin: 7px;
+}
+.instructor-social-icons{
+  font-size: 26px;
+  width:30px;
+}
+.instructor-social-icons:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.instructor-description{
+  background: #f1f5ff;
+  width: 70%;
+  padding: 20px;
+}
+.instructor-name{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.instructor-name a{
+  color: #f79e83;
+}
+.instructor-role{
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+}
+@media (max-width: 2050px) {
+  .instructor-container{
+    margin-left: 250px;
+    width: 47%;
+  }
+}
+@media (max-width: 1750px) {
+  .instructor-container{
+    margin-left: 100px;
+    width: 55%;
+  }
+}
+@media (max-width: 1430px) {
+  .instructor-container{
+    margin-left: 50px;
+    width: 55%;
+  }
+}
+@media (max-width: 1140px) {
+  .instructor-container{
+    margin-left: 0px;
+    width: 70%;
+  }
+}
+@media (max-width: 800px) {
+  .instructor-container{
+    margin-left: 0px;
+    width: 85%;
+  }
+  .instructor-content{
+    flex-direction: column;
+  }
+  .instructor-details{
+    width: 100%;
+  }
+  .instructor-description{
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .instructor-container{
+    margin-left: 0px;
+    width: 95%;
+  }
+}

@@ -1,0 +1,50 @@
+import React, { Component } from 'react'
+import YouTube from 'react-youtube'
+
+class ReactYouTubeComponent extends Component {
+  videoOnReady (event) {
+    // access to player in all event handlers via event.target
+    // event.target.playVideoAt(50) // 50 seconds
+    // const player = event.target
+    // this.setState({
+    //   playerObj: player
+    // })
+    // player.seekTo(50)
+    // console.log(event.target)
+  }
+  videoOnPlay (event) {
+    // access to player in all event handlers via event.target
+     event.target.playVideoAt(50) // 50 seconds
+    //const player = event.target
+    /// console.log(player.getCurrentTime())
+  }
+  videoStateChange (event) {
+    //const player = event.target
+    //console.log(player.getCurrentTime())
+  }
+
+  componentWillUnmount () {
+    //const {playerObj} = this.state
+    //console.log(player.getCurrentTime())
+  }
+  render () {
+    const opts = {
+      height: '390',
+      width: '640',
+      playerVars: { // https://developers.google.com/youtube/player_parameters
+        autoplay: 0
+      }
+    }
+    const {videoId} = this.props
+    return (
+      <YouTube
+        videoId={videoId}
+        opts={opts}
+        onReady={this.videoOnReady}
+        onPlay={this.videoOnPlay}
+      />
+    )
+  }
+}
+
+export default ReactYouTubeComponent

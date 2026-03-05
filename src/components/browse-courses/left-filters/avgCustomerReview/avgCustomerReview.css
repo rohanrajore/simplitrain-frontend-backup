@@ -1,0 +1,41 @@
+.avg-customer-review{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.avg-customer-review-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: max-content;
+  margin-bottom: 10px;
+}
+.avg-customer-review-item .avg-customer-review-clear{
+  color: #2d9cdb;
+  font-weight: 500;
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.avg-customer-review-item  span{
+  margin-left: 5px;
+}
+.avg-customer-review-item:hover{
+  cursor: pointer;
+}
+.avg-customer-review-item:hover .avg-customer-ratings{
+  color: #a67816;
+}
+.avg-customer-review-item > .avg-customer-ratings{
+  pointer-events: none;
+  color: #e39e09;
+}
+.avg-customer-review-item .activeAvgCustRating{
+  color: #2DB417;
+}
+.avg-customer-review-item:hover .activeAvgCustRating{
+  color:#2DB417;
+}
+.star-icon{
+  color:'#e39e09';
+}

@@ -1,0 +1,7 @@
+const VenueWizardTypes = {
+  UPDATE_FORM_DATA: "UPDATE_FORM_DATA",
+  UPDATE_FORM_DATA_MULTI: "UPDATE_FORM_DATA_MULTI",
+  HANDLE_SAVE_DATA: "HANDLE_SAVE_DATA",
+};
+
+export default VenueWizardTypes;

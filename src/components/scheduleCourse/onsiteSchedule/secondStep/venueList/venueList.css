@@ -1,0 +1,51 @@
+.secondStep-venueList{
+
+}
+.secondStep-venueList .results-sort{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  max-width: 1015px;
+  align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+  color: #303030;
+}
+.secondStep-venueList .results-sort >div:last-child{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4F4F4F;
+}
+.secondStep-venueList .results-sort >div:last-child label{
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+.secondStep-venueList > .stepper-stepTitle{
+  position: relative;
+}
+.secondStep-venueList .switch-venueList{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2D9CDB;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+.secondStep-venueList .register-venueList{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2D9CDB;
+  position: absolute;
+  right: 115px;
+  bottom: 10px;
+}
+.secondStep-venueList .register-venueList:hover{
+  cursor: pointer;
+}
+.secondStep-venueList .switch-venueList:hover{
+  cursor: pointer;
+}

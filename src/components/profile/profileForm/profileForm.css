@@ -1,0 +1,48 @@
+
+.userProfile-section-container textarea{
+  resize: none;
+}
+
+.marginTop20{
+  margin-top: 20px;
+}
+.profile-userImg{
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+.profile-userImg img{
+  width: 240px;
+  height: 197.75px;
+}
+.profile-imgUpload{
+  border: 1px solid black;
+  width: 100% ;
+  height: 100% ;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.profile-imgUpload div{
+  padding: 0;
+  margin: 0;
+  background: white;
+  box-shadow: none;
+  border-radius: 0;
+}
+.profile-imgUpload p{
+  padding: 0 10px;
+  display: flex;
+}
+.uploadHover{
+  width: 240px;
+  height: 197.75px !important;
+}
+.uploadHover:hover{
+  cursor: pointer;
+}
+@media (max-width:761px) {
+  .marginTop20{margin-top: 0px}
+}

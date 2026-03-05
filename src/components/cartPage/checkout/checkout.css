@@ -1,0 +1,124 @@
+.checkout-content{
+  margin-top: 35px;
+  width: 95%;
+  min-height: 650px;
+  display: flex;
+  justify-content: space-between;
+}
+.checkout-billing-details{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #627373;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+.checkout-billing-details input, .checkout-billing-details select{
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #627373;
+  margin-right: 12px;
+}
+.checkout-billing-details select{
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.checkout-billing-details input, .checkout-billing-details select:focus{
+  outline: none;
+  margin-bottom: 0;
+}
+.checkout-billing-details-title{
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.checkout-billing-details-part{
+  width: 95%;
+  margin-bottom: 25px;
+}
+.checkout-billing-details-inputs{
+  display: flex;
+  flex-wrap: wrap;
+}
+.checkout-billing-input-container{
+  display: flex;
+}
+.checkout-billing-details-subTitle{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.checkout-billing-details-footer{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkout-billing-details-footer-btn{
+  background: #4183c4;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: 12px;
+}
+.checkout-billing-footer-btn-blocked{
+  opacity: 0.5
+}
+.checkout-billing-footer-btn-blocked:hover{
+  cursor: default !important;
+}
+.checkout-billing-details-footer-btn:hover{
+  cursor: pointer;
+}
+.checkout-billing-details-btn-container{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkout-billing-details-editBtn{
+  margin-left: auto;
+  margin-right: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #4183c4;
+}
+.checkout-billing-details-editBtn:hover{
+  cursor: pointer;
+}
+.billing-half-width{
+  width: 50%;
+  margin-bottom: 10px;
+}
+.checkout-razorPay-btn{
+  font-size: 17px;
+  border: 1px solid red;
+}
+.checkout-order-summary{
+  margin-top: 0;
+  width: 35%;
+}
+.checkout-totalDisc{
+  color: #4183c4;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.checkout-selectDial{
+  margin-bottom: 0!important;
+}

@@ -1,0 +1,397 @@
+.learnersLink-container{
+   width: 100%;
+}
+.learnersLink-mainImg{
+  height: 482px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://mgtblog.com/wp-content/uploads/2021/07/Custom-dimensions-1200x500-px-60-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.learnersLink-mainImg > div:first-child{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #E4E4E4;
+  margin-bottom: 20px;
+}
+.learnersLink-mainImg > div:nth-child(2){
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #E4E4E4;
+  margin-bottom: 50px;
+}
+.learnersLink-mainImg > div:last-child{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  background: #2D9CDB;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 52px;
+}
+.learnersLink-mainImg > div:last-child:hover{
+  cursor: pointer;
+}
+.learnersLink-mainImg> div{
+  max-width: 700px;
+  text-align: center;
+}
+.learnersLink-learners{
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.learnersLink-title{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #030B0F;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.learnersLink-learners > div:last-child{
+  width: 100%;
+  max-width: 1160px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.learnersLink-learnersItem{
+  width: 210px;
+  height: 240px;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.learnersLink-learnersItem > img{
+  width: 100%;
+  height: 100%;
+  filter: brightness(65%);
+}
+.learnersLink-learnersItem >div{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #FDFDFD;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+.learnersLink-learnersLastItem{
+  width: 210px;
+  height: 240px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background: #EFF8FC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.learnersLink-learnersLastItem > div:first-child{
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #4F4F4F;
+  margin-bottom: 20px;
+}
+.learnersLink-learnersLastItem > a:last-child{
+  background: #2D9CDB;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 45px;
+}
+.learnersLink-learnersLastItem > a:last-child:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  transition-duration: 0.3s;
+}
+.learnersLink-joinUs{
+  margin-bottom: 60px;
+  background: #EFF8FC;
+}
+.learnersLink-joinUs > div:last-child{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.learnersLink-joinUsItem{
+  border: 1px solid #b4b4b4;
+  border-radius: 4px;
+  width: 325px;
+  height: 300px;
+  background: #fff;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.learnersLink-joinUsItem > svg{
+  color: #4CABE0;
+  margin-bottom: 35px;
+  width: 55px !important;
+  height: 55px;
+}
+.learnersLink-joinUsItem path{
+  width: 55px;
+  height: 55px;
+}
+.learnersLink-joinUsItem > div:nth-child(2){
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #4F4F4F;
+  margin-bottom: 20px;
+}
+.learnersLink-joinUsItem > div:last-child{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px;
+}
+.learnersLink-joinUsItem > div{
+  text-align: center;
+}
+.learnersLink-howWorks{
+  min-height: 404px;
+  background: #FFFFFF;
+  padding: 60px 130px;
+  margin-bottom: 80px;
+}
+.learnersLink-howWorks > div:last-child{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.learnersLink-howItem{
+  width: 324px;
+  height: 181px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.learnersLink-howItem >svg{
+  color: #4F4F4F;
+  width: 61px !important;
+  height: 61px !important;
+  margin-bottom: 25px;
+}
+.learnersLink-howItem > div{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4F4F4F;
+  margin-bottom: 10px;
+}
+/* .learnersLink-howItem > div:last-child{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px;
+  color: #4F4F4F;
+} */
+.learnersLink-stories{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.learnersLink-stories > div:last-child{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  justify-content: center;
+}
+.learnersLink-storyItem{
+  display: flex;
+  position: relative;
+}
+.learnersLink-storyIconLeft{
+  color: #F4FAFD;
+  position: absolute;
+  width: 30px !important;
+  height: 30px !important;
+  left: 47%;
+  top: 40px;
+}
+.learnersLink-storyIconRight{
+  color: #F4FAFD;
+  position: absolute;
+  width: 30px !important;
+  height: 30px !important;
+  right: 47%;
+  top: 40px;
+}
+.learnersLink-storyItem > img{
+  width: 282px;
+  height: 240px;
+}
+.learnersLink-storyItem > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 282px;
+  height: 240px;
+  background: #F4FAFD;
+}
+.learnersLink-storyItem > div > div:first-child{
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4F4F4F;
+  margin-bottom: 20px;
+}
+.learnersLink-storyItem > div > div:last-child{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4F4F4F;
+}
+.learnersLink-QA{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #EFF8FC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.learnersLink-QA > div:last-child{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1160px;
+}
+.learnersLink-collapsible-content{
+  background: white;
+  padding: 15px;
+  padding-left: 0;
+}
+.learnersLink-QA .Collapsible{
+  width: 555px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4F4F4F;
+  background: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  height: max-content;
+  padding: 13px 20px;
+}
+.learnersLink-collapsibleOpen{
+  border-left: 8px solid #2D9CDB;
+}
+.learnersLink-QA .is-open > div:last-child{
+  padding:15px;
+}
+.learnersLink-QA .Collapsible .is-open{
+  background: white;
+}
+.learnersLink-QA .Collapsible .is-open:hover{
+  cursor: pointer;
+}
+.learnersLink-QA .Collapsible .is-closed:hover{
+  cursor: pointer;
+  width: 100% !important;
+  margin-left: 0;
+  margin-right: 0;
+}
+.learnersLink-getStarted{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.learnersLink-getStarted > div:first-child{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #4F4F4F;
+  margin-bottom: 30px;
+}
+.learnersLink-getStarted > div:last-child{
+  background: #2D9CDB;
+  border-radius: 5px;
+  padding: 11px 53px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  width: max-content;
+}
+.learnersLink-getStarted > div:last-child:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+  .learnersLink-joinUsItem{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .learnersLink-howWorks{
+    padding:20px;
+  }
+  .learnersLink-storyItem{
+    flex-direction: column;
+  }
+  .learnersLink-storyItem svg{
+    display:none;
+  }
+  .learnersLink-QA > div:last-child{
+    width: 100%;
+  }
+  .learnersLink-QA .Collapsible{
+    margin: 10px 16px;
+  }
+  .learnersLink-getStarted > div:first-child {
+      text-align: center;
+      padding: 0px 16px;
+  }
+  .learnersLink-getStarted{
+    margin-bottom: 0px;
+  }
+}

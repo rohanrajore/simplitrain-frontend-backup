@@ -1,0 +1,145 @@
+div.p {
+	margin: 0 0 15px;
+}
+
+.course-overview input.form-control,
+.course-overview select.form-control {
+	margin-bottom: 15px;
+}
+
+.course-overview .wrow {
+	display: flex;
+}
+.course-overview .wrow .input-container {
+	flex-direction: column;
+	width: calc(50% - 20px);
+	padding-top: 0;
+}
+.course-overview select.form-control {
+	display: inline-block;
+	margin-bottom:15px;
+}
+.course-overview .half-size {
+	width: calc(50% - 20px);
+	display: inline-block;
+}
+.course-overview .file-list li {
+	width: 100%;
+	margin: 0;
+}
+.course-overview .btn-upload {
+	background-color: transparent;
+	color: #fff;
+	border: solid 2px #fff;
+	margin: 50px 0;
+}
+
+.input-limit {
+	position: relative;
+}
+
+.input-limit .controls {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	display: flex;
+	line-height: .8;
+}
+.input-limit span {
+	right: 5px;
+	top: 3px;
+	background: #ccc;
+	padding: 8px;
+	margin: 5px;
+	border-radius: 4px;
+}
+.input-limit .handle,
+.input-limit button {
+	background-color: transparent;
+	color: #2D9CDB;
+	width: 40px;
+	margin: 0px 5px 0 0;
+	padding-left: 10px;
+	outline: none;
+	border: none;
+  border-left: solid 1px #ccc;
+}
+.input-limit .handle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.input-limit button {
+	cursor: pointer;
+}
+
+.btn-add {
+  border: none;
+  border-radius: 50%;
+  background-color: #2D9CDB;;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.input-list {
+	margin-bottom: 20px;
+}
+.input-list h5 {
+	position: relative;
+	margin-bottom: 10px;
+}
+.input-list h5 button {
+	color: #fff;
+	position: absolute;
+	right: 0;
+}
+.course-target .input-limit {
+	margin-bottom: 10px;
+}
+
+.course-section {
+	border: solid 1px #E2E2E2;
+	border-radius: 4px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.course-section textarea {
+	width: 100%;
+	padding: 10px;
+	color: #222;
+  	font-size: 16px;
+	line-height: 1.5;
+	outline: none;
+}
+.course-section .aliceblue {
+	border: 1px solid #E2E2E2;
+	background-color: aliceblue;
+	border-radius: 0;
+}
+.course-section .topics {
+	padding: 10px;
+}
+.course-section .topics .input-limit {
+	margin-bottom: 10px;
+}
+.course-section .topics .btn-add {
+	background-color: #fa5638;
+}
+.course-section .topics .input-limit .handle, 
+.course-section .topics .input-limit button {
+	color: #fa5638;
+}
+
+.course-messages .submit-row {
+	text-align: right;
+	margin-top: 15px;
+}
+
+.wizard .quill {
+	margin-bottom: 15px;
+	margin-right: 0;
+}

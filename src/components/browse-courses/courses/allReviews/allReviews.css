@@ -1,0 +1,48 @@
+.allReviews-container{
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  min-width: 330px;
+  height: 250px;
+  padding: 10px;
+  font-size: 15px;
+  position: absolute;
+  bottom: -200px;
+  left: -100%;
+  z-index: 2;
+}
+.allReviews-percent-container{
+  width: 100% !important;
+  margin-right: 0 !important;
+}
+.allReviews-rating{
+  font-weight: bold;
+  font-size: 17px;
+  color: black;
+}
+.allReviews-cr{
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+.allReviews-blue{
+  color: rgb(65, 131, 196);
+  font-weight: bold;
+}
+.allReviews-seeAll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(65, 131, 196);
+  font-weight: bold;
+}
+.allReviews-seeAll:hover{
+  cursor: pointer;
+}
+
+@media (max-width: 750px) {
+  .allReviews-container{
+    left:0;
+    bottom: -120px;
+  }
+}

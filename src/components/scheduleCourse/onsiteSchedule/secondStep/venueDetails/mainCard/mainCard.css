@@ -1,0 +1,135 @@
+.secondStep-venueDetails .venueDetails-main{
+  display: flex;
+  flex-direction: column;
+  max-width: 670px;
+  width: 100%;
+  border-bottom: 1px solid #CACACA;
+  margin-right: 20px;
+}
+.venueDetails-main > .venueDetails-titleDiv{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.venueDetails-main > .venueDetails-titleDiv >div:first-child{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #041016;
+  margin-right: 7px;
+}
+.venueDetails-main > .venueDetails-titleDiv >div:nth-child(2){
+  width: 90px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #EB5757;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #EB5757;
+  margin-right: 10px;
+}
+.venueDetails-main > .venueDetails-titleDiv >div:last-child{
+  font-size: 14px;
+  line-height: 17px;
+  color: #4F4F4F;
+  margin-right: 0;
+  margin-left: auto;
+}
+.venueDetails-main > .venueDetails-titleDiv >div:last-child > svg{
+  color:#FFB30F;
+}
+.venueDetails-main > .venueDetails-titleDiv >div:last-child > svg:first-child{
+  margin-left: 7px;
+}
+
+.venueDetails-main > .venueDetails-locationDiv{
+  display: flex;
+  margin-bottom: 20px;
+}
+.venueDetails-main > .venueDetails-locationDiv > div:first-child{
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #676767;
+  margin-right: 20px;
+}
+.venueDetails-main > .venueDetails-locationDiv > div:first-child > svg{
+  margin-right: 10px;
+  color: #676767;
+}
+.venueDetails-main > .venueDetails-locationDiv a{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #2D9CDB;
+  margin-right: 10px;
+}
+.venueDetails-main > .venueDetails-locationDiv > div:last-child{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2D9CDB;
+  margin-right: 0;
+  margin-left: auto;
+}
+.venueDetails-main > .venueDetails-images{
+  padding-bottom: 50px;
+}
+.venueDetails-main > .venueDetails-images > img:first-child{
+  width: 100%;
+  height: 311px;
+  margin-bottom: 20px;
+}
+.venueDetails-main > .venueDetails-images > div:last-child{
+  display: flex;
+  justify-content: space-between;
+}
+.venueDetails-main > .venueDetails-images > div:last-child > img{
+  width: 95px;
+  height: 95px;
+}
+.venueDetails-main > .venueDetails-images  img:hover{
+  cursor: pointer;
+}
+.venueDetails-main > .venueDetails-images .venueDetails-moreImg{
+  position: relative;
+  width: 95px;
+  height: 95px;
+}
+.venueDetails-main > .venueDetails-images .venueDetails-moreImg img{
+  width: 100%;
+  height: 100%;
+  filter: brightness(70%)
+}
+.venueDetails-main > .venueDetails-images .venueDetails-moreImg > .venueDetails-roundMore{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: #FFFFFF;
+  border-radius: 100%;
+  top:17px;
+  left:32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+.venueDetails-main > .venueDetails-images .venueDetails-moreImg > div:last-child{
+  position: absolute;
+  color: white;
+  left:28px;
+  top: 55px;
+  pointer-events: none;
+}
+.venueDetails-main > .venueDetails-images .venueDetails-moreImg > div:last-child:hover{
+  cursor: pointer;
+}
+.venueDetails-main > .venueDetails-images .venueDetails-moreImg > .venueDetails-roundMore:hover{
+  cursor: pointer;
+}
